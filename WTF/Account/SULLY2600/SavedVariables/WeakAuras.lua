@@ -402,7 +402,7 @@ WeakAurasSaved = {
 			["regionType"] = "dynamicgroup",
 			["expanded"] = false,
 			["sort"] = "descending",
-			["radius"] = 200,
+			["borderOffset"] = 11,
 			["space"] = 2,
 			["background"] = "Blizzard Dialog Background Dark",
 			["actions"] = {
@@ -422,7 +422,7 @@ WeakAurasSaved = {
 				["event"] = "Health",
 				["subeventPrefix"] = "SPELL",
 			},
-			["backgroundInset"] = 10,
+			["radius"] = 200,
 			["id"] = "Priest Mainbar",
 			["selfPoint"] = "CENTER",
 			["align"] = "CENTER",
@@ -448,7 +448,7 @@ WeakAurasSaved = {
 			["additional_triggers"] = {
 			},
 			["height"] = 34.75,
-			["borderOffset"] = 11,
+			["backgroundInset"] = 10,
 			["load"] = {
 				["role"] = {
 					["multi"] = {
@@ -989,7 +989,7 @@ WeakAurasSaved = {
 			["id"] = "Rapture",
 			["inverse"] = false,
 			["frameStrata"] = 1,
-			["width"] = 122.4348068237305,
+			["width"] = 159.5363006591797,
 			["disjunctive"] = false,
 			["selfPoint"] = "CENTER",
 			["numTriggers"] = 2,
@@ -1685,11 +1685,11 @@ WeakAurasSaved = {
 				},
 			},
 			["numTriggers"] = 1,
-			["stickyDuration"] = false,
+			["desaturate"] = false,
 			["customTextUpdate"] = "update",
 			["id"] = "DH 3",
 			["icon"] = true,
-			["desaturate"] = false,
+			["width"] = 34.75,
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0.2,
 			["auto"] = true,
@@ -1730,7 +1730,7 @@ WeakAurasSaved = {
 			},
 			["selfPoint"] = "CENTER",
 			["frameStrata"] = 1,
-			["width"] = 34.75,
+			["stickyDuration"] = false,
 			["progressPrecision"] = 0,
 			["font"] = "Arial Black",
 			["inverse"] = false,
@@ -2213,26 +2213,26 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["borderSize"] = 10,
-			["stacksFont"] = "Arial Narrow",
-			["border"] = true,
-			["borderEdge"] = "5",
-			["regionType"] = "aurabar",
-			["stacks"] = true,
-			["alpha"] = 1,
-			["icon_side"] = "RIGHT",
 			["stacksColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["border"] = true,
+			["borderEdge"] = "5",
+			["regionType"] = "aurabar",
+			["stacks"] = true,
+			["alpha"] = 1,
+			["icon_side"] = "RIGHT",
+			["borderOffset"] = 2,
 			["id"] = "Rapture CD",
-			["timerSize"] = 12,
+			["displayTextRight"] = "%p",
 			["texture"] = "Polished Wood",
 			["textFont"] = "Arial Black",
-			["borderOffset"] = 2,
+			["stacksFont"] = "Arial Narrow",
+			["timerSize"] = 12,
 			["auto"] = true,
-			["displayTextRight"] = "%p",
 			["additional_triggers"] = {
 			},
 			["timerFont"] = "Arial Black",

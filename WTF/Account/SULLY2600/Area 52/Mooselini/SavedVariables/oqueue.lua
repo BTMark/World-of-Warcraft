@@ -11,8 +11,8 @@ OQ_toon = {
 	["MinimapPos"] = 0,
 	["my_toons"] = {
 	},
-	["player_role"] = 1,
-	["last_tm"] = 1365527699,
+	["player_role"] = 2,
+	["last_tm"] = 1365535618,
 	["disabled"] = true,
 	["wins"] = 2,
 	["losses"] = 5,
@@ -20,10 +20,10 @@ OQ_toon = {
 	["shout_kbs"] = 1,
 	["my_slot"] = 0,
 	["say_sapped"] = 1,
-	["reports"] = {
-	},
 	["auto_role"] = 1,
 	["class_portrait"] = 1,
+	["reports"] = {
+	},
 	["waitlist"] = {
 	},
 	["marquee_x"] = 351.8045043945313,
