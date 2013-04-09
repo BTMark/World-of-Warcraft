@@ -1,0 +1,84 @@
+------------------------------------------------------------------------
+r193 | kunda | 2013-03-24 20:20:43 +0000 (Sun, 24 Mar 2013) | 8 lines
+Changed paths:
+   A /tags/50200-3 (from /trunk:192)
+
+New in BattlegroundTargets-50200-3:
+- better frame positioning if WoW is scaled
+- removed GuildGroup detection
+
+New in BattlegroundTargets-50200-2:
+- fixed class color if class is nil (Thanks bitbyte)
+- fixed frFR bg name check for 'Eye of the Storm' (Thanks Leblanco)
+- fixed frFR 'Eye of the Storm' flag display 
+------------------------------------------------------------------------
+r192 | kunda | 2013-03-24 20:00:47 +0000 (Sun, 24 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets.lua
+
+update
+------------------------------------------------------------------------
+r191 | kunda | 2013-03-23 20:13:13 +0000 (Sat, 23 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets.lua
+
+update
+------------------------------------------------------------------------
+r190 | kunda | 2013-03-23 18:56:52 +0000 (Sat, 23 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets.lua
+
+update frame positioning code (similar to LibWindow-1.1 from Mikk for better frame positioning if WoW is scaled)
+------------------------------------------------------------------------
+r189 | kunda | 2013-03-23 18:14:21 +0000 (Sat, 23 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets-localization-deDE.lua
+   M /trunk/BattlegroundTargets-localization-enUS.lua
+   M /trunk/BattlegroundTargets-localization-esES.lua
+   M /trunk/BattlegroundTargets-localization-esMX.lua
+   M /trunk/BattlegroundTargets-localization-frFR.lua
+   M /trunk/BattlegroundTargets-localization-itIT.lua
+   M /trunk/BattlegroundTargets-localization-koKR.lua
+   M /trunk/BattlegroundTargets-localization-ptBR.lua
+   M /trunk/BattlegroundTargets-localization-ruRU.lua
+   M /trunk/BattlegroundTargets-localization-zhCN.lua
+   M /trunk/BattlegroundTargets-localization-zhTW.lua
+   M /trunk/BattlegroundTargets-texture-icons.tga
+   M /trunk/BattlegroundTargets.lua
+   M /trunk/BattlegroundTargets.toc
+
+removed GuildGroup detection
+------------------------------------------------------------------------
+r187 | kunda | 2013-03-21 18:53:21 +0000 (Thu, 21 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets.lua
+
+fix frFR 'Eye of the Storm' flag display [source code order is important, because in frFR EOTS_PATTERN_PICKED/EOTS_STRING_CAPTURED_BY_ALLIANCE can match at the same point]
+------------------------------------------------------------------------
+r186 | kunda | 2013-03-20 17:32:08 +0000 (Wed, 20 Mar 2013) | 2 lines
+Changed paths:
+   A /trunk/BattlegroundTargets-localized-bgnames.lua
+   M /trunk/BattlegroundTargets.lua
+   M /trunk/BattlegroundTargets.toc
+
+- fix class color if class is nil (Thanks bitbyte)
+- fix frFR french bg name for 'Eye of the Storm' (Thanks Leblanco)
+------------------------------------------------------------------------
+r184 | kunda | 2013-03-08 02:01:22 +0000 (Fri, 08 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets.lua
+
+fix for WarGame
+------------------------------------------------------------------------
+r183 | kunda | 2013-03-08 00:31:30 +0000 (Fri, 08 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets.toc
+
+update
+------------------------------------------------------------------------
+r182 | AlexFlexy | 2013-01-11 18:39:57 +0000 (Fri, 11 Jan 2013) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets-localization-ruRU.lua
+
+Updated russian translations. Happy New Year :)
+------------------------------------------------------------------------

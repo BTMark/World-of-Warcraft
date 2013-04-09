@@ -1,0 +1,4 @@
+Scrap_Spotlight: disabled
+InterruptBar: disabled
+Gladius: disabled
+BattlegroundTargets: disabled

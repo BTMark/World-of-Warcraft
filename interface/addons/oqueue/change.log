@@ -1,0 +1,510 @@
+﻿change.log for oQueue
+
+v1.1.6   UPD: tweaked width of spec column on waitlist tab
+         UPD: tweaked width of resil column on find-premade tab to keep it from chopping on 4:3 monitors (thx Bosskiller!)
+         UPD: 'remove now' will clear the OQ btag cache after clearing members 
+         UPD: 'remove now' will no longer remove 'QO,leader' btag friends if in an OQ group
+         UPD: old data cleanout
+         UPD: changed the class-portrait to reduce the update cycle
+         UPD: removed old JoinBattlefield code
+         UPD: changed blizz interface id
+         add: special case realm names 
+         add: sanity checks to verify msgs are not nil before processing
+         add: 'still kickin' msg to notify scorekeeper player is still using OQ (if submit btag disabled); will not submit btag to mesh
+
+v1.1.5   BUGFIX: ready-check now limits the number of groups for the premade type
+         BUGFIX: '/oq dg' fixed
+         UPD: intra-realm comms
+         UPD: updated presenceID to refresh every 5 seconds instead of every 30 (blizz seems to re-issue presenceIDs more often then it should)
+         UPD: german locale tweaked
+         UPD: brb and back msgs will send to raid-channel when in a raid or rbg group (thx zukk!)
+         UPD: invite-to-group should be improved
+         add: santa's naughty list
+         add: color-blind selector on setup tab; clicking the '+' next to the pulldown will cycle through modes (thx to: ryan and paranoid/malganis)
+
+v1.1.4   BUGFIX: approaching honor cap warning is back
+         BUGFIX: unknown realm id would break the timer when gathering stats
+         BUGFIX: premade info now relaying into local realm better
+         UPD:  removed oq premade button from the honor panel.  open oq thru minimap or console (/oq)
+
+v1.1.3   BUGFIX: find-mesh bug fixed (critical)
+
+v1.1.2   UPD: a few tweaks for realm lookup that may help Pozzo dell'Eternità
+         UPD: tweaked time variance display
+         add: new locale - german (partial) (thx LordOfLols!)
+         add: 'announce premades' checkbox now on the setup tab (default: on)
+
+v1.1.1   UPD: brazilian translation updates
+         UPD: tab3 warning against LFG will now display once per week as a reminder
+         UPD: tweaked 'find mesh'
+         UPD: some general cleanup
+         UPD: improved premade announcement; count now shows the number of premades by your selection criteria
+         UPD: improved inter-realm msg'ing; 'already your friend' should no longer be seen
+         add: close 'x' now in the upper right of warnings and notices (esc still works)
+         add: holding oqueue leader btags and raid token to enable banning
+
+v1.1.0   BUGFIX: ragequit announcement wasn't toggling the info properly
+         BUGFIX: attempt to rectify realm name spacing issues (ie: 'BleedingHollow' comes from blizz instead of 'Bleeding Hollow')
+         BUGFIX: waitlist tab would disappear in some situations.  should be resolved (tough to reproduce)
+         BUGFIX: scrolling lists (waitlist, banlist, premades) now grows and will scroll to end
+         UPD: loot type will not change if in a dungeon or raid 
+         UPD: changed the layout of the premade announcement line
+         UPD: the premade names need a little trim
+         UPD: changed the 'all premades' clickable label to a dropdown list
+         add: realmlist verification and error reporting upon starting
+         add: left-click  the premade announcement will waitlist with the group
+         add: right-click the premade announcement will ban list the group leader's b-tag
+         add: premade header on the 'find premade' tab now includes the number of visible premades and the total number of premades 
+         add: d'oh!
+         add: new locale - brazil / portuguese (thanks Scythlyr!)
+         add: time variance announcement every 5 minutes if your time is off
+         add: time variance warning shade on the create premade tab if your time is off
+         add: create premade LFG warning notice 
+v1.0.9   BUGFIX: general cleanups
+         BUGFIX: 'not qualified' if waitlisting a group and the premade has any requirements
+         UPD: updates for russian translations
+         UPD: changed EU teamspeak default address
+         UPD: fixed tab order on the create premade tab
+         add: '/oq now' will now display time variance from scorekeeper
+         add: arena groups (not x-realm)
+         add: leader must qualify for his own premade (thx weanii!!)
+         add: time-variance from the mesh displayed on the setup tab (> 15min == bad; red 'X' will appear to the left of variance)
+
+v1.0.8   BUGFIX: changed how raids encoded their role information.  was completely wrong (whoa, coding @ 3am == bad)
+         BUGFIX: raid member info being passed around better
+         UPD: changed the default tab when opening oQueue depending on whether or not in a party and/or leader
+         add: toggle sort for 'find premade' tab
+         add: toggle sort for 'waitlist' tab
+         add: 'qualified' filter for 'find premade' tab
+         add: filter for premade type on 'find premade' tab; click for pull down; 'all premades' is default
+
+v1.0.7   BUGFIX: toggle ads tweaked  (/oq toggle ads)
+         UPD: changed /oq stats to reflect your region and realmlist
+         UPD: insured 'enforce level bracket' is on by default
+         add: OQ.REALMNAMES_SPECIAL for misbehaved realm names
+         add: new version marquee.  no more dialog that takes your focus... but you won't miss this one
+
+v1.0.6   BUGFIX: tamed the angry button a bit
+         BUGFIX: leader controls now showing when flipping between premade types
+
+v1.0.5   BUGFIX: realm-ids between group members fixed (amazing what a little sleep can do)
+         BUGFIX: auto-set-role retained between sessions
+         add: enforce-level-brackets now available (on by default)
+         add: laid an egg, it'll hatch in a few days ;)
+
+v1.0.4   BUGFIX: 2 word realms weren't being resolved properly
+         BUGFIX: fixed realm name (Aggra (Português))
+         BUGFIX: fixed realm name (La Croisade �écarlate)
+         UPD: eu-scorekeeper glitched and needed a new battle.tag        
+
+v1.0.3   BUGFIX: realm name '-'
+         BUGFIX: disbanding / leaving premade
+         BUGFIX: fixed realm name (Aggra(Portugu�s))
+
+v1.0.2   protocol change: mandatory update
+         BUGFIX: fixed some of the EU realm names in realms.eu.lua
+         BUGFIX: group members will no longer remove members from a group if they add them to their ban list
+         BUGFIX: Shu'halo will now resolve
+         UPD: banned b-tags will not be auto-accepted as a mesh node
+         UPD: unpopped leaveQ button adjustments
+         UPD: changed out all realm names to numeric equivalents (protocol change); this helps EU especially Russians 
+         UPD: changed encoding for resilence to allow for higher range, 64^3 instead of 9999 (protocol change)
+         UPD: more russian language updates
+         UPD: it's back with a vengence!  the little angry button returns!
+         add: main premade tab will now support raids (you must queue up using blizz ui)
+         add: main premade tab will now support rated bgs (you must queue up using blizz ui)
+         add: you can move people between groups using the normal raid ui and the OQ premade tab will reflect it
+         add: dungeon and scenarios now show the model of group members in the main premade tab (must be in visible range)
+         add: pvppower is now available on the waitlist
+
+v1.0.1   BUGFIX: leave / enter buttons would enlarge other buttons later
+         BUGFIX: fixed option flags between toon and acct
+         UPD: will now translate numeric realm info info names; not transmitting yet (waiting a few patches before doing that)
+         UPD: tweaked persistent structure initialization
+         UPD: tweaked frame creation to insure proper frame levels (why a child frame isn't always parent's level + 1 is beyond me)
+         UPD: changed update url from solidice.com to curse.com
+         UPD: changed "BATTLEGROUND" to "INSTANCE_CHAT"
+         add: updated "remove now" button and added cmdline option (/oq purge) or (/oq purge show)
+         add: new cmdline option: oq spy [on|off]
+         add: new cmdline option: oq show <option>
+         add: default teamspeak server info for EU premades
+         add: "ban b-tag" button to the ban-list tab allowing manual banning of b-tag
+         add: level check prior to creating raid (must be 10 or higher)
+         add: warning to users using oQueue as LFG
+         add: restricted premade creation/updates/disbands to 15 second cooldowns
+         add: new file: oqueue.ru.lua for russian specific text (requires wow restart to see)
+         add: russian realm support added (*special thanks to iClean on oqueue.forumotion.com)
+
+v1.0.0   UPD: uploaded to curse
+         UPD: insured premade names are not blank
+         UPD: changed rage-quit announcement to be off by default
+         UPD: the marquee will now remember its position between sessions
+         add: cmdline option: fixui 
+         add: 'auto accept b-tag mesh requests' on setup tab
+         add: dragon awards for leaders; knight == 100, general == 500, silver == 1000, gold == 5000
+         add: some general info tooltips added 
+         add: dungeon and scenario groups will now show the roles they have as icons in the find-premade list 
+         add: dungeon and scenario groups will now display character portraits in their cell
+
+v0.9z.99 BUGFIX: fixed bug when removing b-tag from the scorekeeper
+         BUGFIX: moved timer creation to onload
+         UPD: forwarding to friends updated; should push more data to bnet friends
+         UPD: garbage collection changed to 'off' by default
+         add: cmdline option: toggle <option>  (possible:  /oq toggle < mini | ads | ? >)
+         add: ability for members of an OQ group to right-click/ban a player in the premade
+
+v0.9z.98 UPD: ** MANDATORY update **    you will not see the mesh if you do not update
+         UPD: moved 'pull b-tag' from find premade tab to setup
+         UPD: 'remove now' will now remove all friends who have no note and their b-tag is in the sk btag cache
+         UPD: changed init from on_load_module to on_player_enter_world hoping to insure oqgeneral doesn't get channel 1
+         UPD: removed battleground selection pulldowns; must select battleground using the blizz ui
+         add: checkbox for b-tag submittals
+         add: b-tags now submitted every 4 days
+         add: number of b-net friends now on find-premade tab, upper right
+
+v0.9z.97 BUGFIX: right-click would produce lua error for undefined field (OQ.STAR_ICON instead of OQ_STAR_ICON)
+         UPD: toc interface version bumped to 50100 for the 5.1 patch
+         UPD: changed the queuing mechanism to deal with bonehead-blizz update; group leaders must now select BG type before queuing 
+         ** christened with 34 alliance tears  \o/
+
+v0.9z.96 UPD: modified sending of packets to OQ b.net friends; max of 10 randomly selected friends per broadcast
+         UPD: added EU bgroups and realms (missing: russian realms, editor wouldn't allow the names)
+         add: premade type selector and main premade look (currently unfinished, released early to help EU get online)
+         add: eu-scorekeeper online
+
+v0.9z.95 UPD: removed auto-removal of OQ mesh nodes 
+
+v0.9z.94 BUGFIX: caught 'person already your friend' bug
+         UPD: tweaked spacing on UI components
+         UPD: 'remove now' will now remove mesh nodes from your bn list
+         UPD: removed 'role check' button from leader ui
+         add: ability to pull your b-tag from the scorekeepers list
+         add: max bn friends implemented to limit mesh-node connections
+
+v0.9z.93 BUGFIX: find-mesh bugs resolved
+
+v0.9z.92 BUGFIX: mixed params on decode
+
+v0.9z.91 UPD: monk group color now updated per http://wowprogramming.com/utils/xmlbrowser/live/FrameXML/Constants.lua (thx Asymptote)
+         UPD: premades will now updte their stats every 15 seconds while in a BG; 30 seconds otherwise
+         add: mmr can now be used for premades requirements
+
+v0.9z.90 BUGFIX: protocol change to shrink msg sizes **required update**
+         BUGFIX: verion info on tooltip re-alignment
+         BUGFIX: rbg rating info will now initialize properly
+         UPD: tweaked the color of the first group confirm; now always green
+         UPD: tweaked pop time colors... under 0.30 is always 'good' or green; trying to remove the guess work
+         UPD: changed "mmr" to "rbg rating" on tooltip
+
+v0.9z.89 BUGFIX: updates to sure-up msg'ing
+         UPD: added check for battlefield draw (winner == 255)
+         UPD: stretched ban-list columns and shrunk the font
+         add: ability to find b-tags in the mesh
+         add: ability to submit your b-tag to the mesh (a one-time action)
+         add: ability to manually add a battle-tag to your ban list (ie: /oq ban asshat#1234)
+         add: removed repeated 'you're afk' msgs
+         add: MMR now added to the waitlist and in-group tooltip
+         add: rated-battlegrounds should no longer impact stats
+
+v0.9z.88 UPD: insured win/loss not recorded if not in an OQ group
+         add: pvp-power now on player tooltip
+         add: rage-quit audio announce (no more then once every 40 seconds)
+         add: right-clicking on the 'x' next to a premade listing will add the premade leader's b-tag to the ban list
+         add: premade info from banned b-tags will not be announce nor passed along
+
+v0.9z.87 BUGFIX: fixed args being passed to timer functions
+
+v0.9z.86 BUGFIX: when coming out of a bg, can pop a queue error.  fixed
+         BUGFIX: forced button frame level (attempt to fix unclickable buttons)
+         UPD: added/changed druid roles
+
+v0.9z.85 UPD: changed how the bars look on the score tab
+
+v0.9z.84 UPD: changed protocol.  required update
+         UPD: changed version id numerics
+         UPD: changed the scoretab bar indicator so its on the side closest to the winner
+         add: score keeper support for the new BGs
+         add: premade requriements now enforced (ie: level, resil, and ilevel)
+         add: ban list now enabled (there ya go, skit!)
+         add: right-click on waitlist 'X' will ban the user
+         
+v0.9z.83 BUGFIX: had resources and victory pts backwards (coding blind, haven't been in yet)
+
+v0.9z.82 UPD: added level next to name on the player tooltip
+         add: added support for Temple of Kotmogu(ToK) and Silvershard Mines(SSM)
+
+v0.9z.81 UPD: will now update player level range upon level up
+         UPD: will not change loot method if inside an instance (raid, 5-man, or pvp)
+
+v0.9z.80 UPD: fixed tooltip overlap issue
+         UPD: added frame level for premade list
+         UPD: changed top end level range from 85 to 85-89 and 90
+
+v0.9z.78 BUGFIX: tears initialized if in group
+
+v0.9z.77 UPD: various tweaks to improve stability
+         UPD: removed MoP checks
+         UPD: reports of games outside of the current game week are now cleared
+         add: will now report HK and XP gains upon leaving the bg
+         add: total tears received now on the tooltip for each player in the group
+
+v0.9z.75 BIGFIX: upon OQ lead swap, new leader name will now replace exiting name
+         UPD: updated scorekeeper reporting
+         UPD: toggling class-portraits no longer requires /reload to restore the default portrait
+         UPD: added per hour calc after leaving BG
+         add: '/oq mini' will now toggle minimap button
+         add: will remember whether or not marquee and minimap buttons were shown
+         add: reputation gains now reported with currency gains
+         add: will now report premade name update
+         add: right-click on the join-queue button will force a leave-queue
+
+v0.9z.74 add: remembers minimap button location
+
+v0.9z.73 BUGFIX: fixed glyph '_' global bug ( http://www.mmo-champion.com/threads/1192031-Addon-errors-when-trying-to-switch-glyphs-or-talents )
+         BUGFIX: free-for-all wasn't tripping due to old msg; fixed
+         add: garbage-collect toggle on the setup tab (forces garbage collection every 5 seconds)
+         add: 'promote-to-group-lead" now available
+         add: ability to promote a member in group 1 to lead, thereby transferring OQ leader
+         add: minimap button now moveable
+
+v0.9z.72 BUGFIX: killing blow now fixed (threw an exception before)
+         UPD: general cleanup
+
+v0.9z.71 UPD: preformance enhancments 
+         UPD: changed parenting on the find-premade tab; hoping to fix unclick-able button bug
+
+v0.9z.70 UPD: removed debug text (  >.<  )
+
+v0.9z.68 UPD: enabled the receipt of scorekeeper response while in BG
+         UPD: added verification for valid class/spec in bg-spy
+         add: added 'N so far' to killing blows
+         add: will announce new premades as they become available 
+         add: marquee to display scores
+         add: minimap buttton (left click will toggle main ui; right click will toggle marquee)
+
+v0.9z.67 BUGFIX: killing blows only announced in bgs
+         UPD: tweak the behavior of 'lucky charms'
+
+v0.9z.66 BUGFIX: charms assigned 
+         BUGFIX: proper reporting for killing blows
+         add: announce killing blows
+
+v0.9z.65 UPD: killing blow only announced for players
+         add: lucky charms button for leader
+
+v0.9z.64 BUGFIX: was not reporting CAPPED if capped.  fixed.
+         BUGFIX: after reload, group info can be nil causing uncaught bug
+         UPD: updated invite 
+         UPD: tweaked oq.BNCustomMessage
+         UPD: 'remove now' will now announce each friend removed and display the battle-tag, if available
+         add: website for weekly stats.  oqstats.com  (thx Synatra for the name idea!)
+         add: report rage-quits to scorekeeper
+         add: will announce when you've struck a killing blow
+         add: 'connection' levels (# OQ enabled locals/friends) on the find-premade tab
+
+v0.9z.63 BUGFIX: caught some bugs with reporting to scorekeeper
+
+v0.9z.62 UPD: protocol change; required update
+         UPD: lots of updates for score and top reporting to the scorekeeper
+
+v0.9z.61 add: 'enter pvp queue' sound
+
+v0.9z.59 BUGFIX: updates for v5.0
+
+v0.9z.56 BUGFIX: * CAPPED * wasn't showing if already capped and no honor gained
+         UPD: leader-name field disabled in create-premade tab
+         add: win-loss and hks now on player tool tip
+         add: win-loss tracking for individual players
+         add: oq version now displayed on each player's tooltip
+         add: battle-tags are live; forcing b-tag requirement
+
+v0.9z.55 UPD: scorekeeper tweaks
+
+v0.9z.54 BUGFIX: updating a premade after updating the real-id on the setup tab will now send the new real-id
+         BUGFIX: say-sapped and who-popped-lust will now set properly on player load
+         UPD: code clean up
+         UPD: various tweaks for MoP (b-tags forced; broadcast cleanup)         
+         UPD: added 1/2 second wait before pulling bnfriend info
+
+v0.9z.52 UPD: various tweaks for MoP
+         UPD: updates for inviting group leader 
+         UPD: group-invite overhaul
+         UPD: bg report now submitted after leaving the battleground
+         add: cmd line to show last lust message (/oq lust)
+
+v0.9z.51 BUGFIX: rage-quit fixed; wasn't insuring no-faction (which could be set if user opened score card)
+         UPD: honor capped warning dropped to 3600
+         add: added Brazilian realms
+         add: 'who popped lust?'
+
+v0.9z.49 BUGFIX: error with proxy-inviting multi b-net toons 
+         UPD: updated invite process
+         add: bg-spy announces number of stealthies
+         add: if honor capped * CAPPED *  will appear
+         add: scores and game reporting
+
+v0.9z.47 UPD: more tweaks for MoP
+         UPD: insure auto-set-role works even if not in an OQ group
+         UPD: increased invite-delay from 2 seconds to 4.  this will help insure users don't invite too fast
+         UPD: moved many strings into locales variables (in prep for other languages)
+         add: command line option:  /oq brb
+
+v0.9z.46 BUGFIX: shouts will no longer appear if unchecked
+         BUGFIX: inter-faction premade info bleed over removed
+
+v0.9z.45 BUGFIX: first time user might fail to have setup and waitlist tabs populated; player_rid was nil (thx Quenched)
+
+v0.9z.43 UPD: waitlist button no longer hidden while in the BG.  disabled instead
+         UPD: improved performance on group creation
+
+v0.9z.42 BUGFIX: real-id field on tab 3 wasn't populating if clicked first
+         BUGFIX: 'be right back' button should be shown in all situations now
+         add: added memory used by oqueue to setup tab
+         add: added wow's overall upload / dnload bandwidth to setup tab
+         add: added enemy rage-quit announcement
+
+v0.9z.41 UPD: popup box informing group member they cannot create an OQ premade
+         UPD: popup box reporting error if user attempts to waitlist with premade on another realm w/ an invalid real-id or b-tag
+
+v0.9z.40 UPD: BG objective announcement available without OQ group
+         add: checkbox to toggle BG announcements (announcements only seen by player)
+
+v0.9z.39 BUGFIX: premade tooltip moved to outside the main frame
+         BUGFIX: lucky charms no longer cleared when leaving a BG
+         BUGFIX: cleared out group queue time difference when leaving the BG
+         BUGFIX: ready-check stable
+         UPD: modified announcement to allow for checking for newly logged-in OQ members while in a BG
+         UPD: modified for pandaria
+         add: added 'you failed' boss clip after das-boot
+         add: insured lucky charms not handed out if not in an OQ premade
+         add: checked to insure real-id is in email or battle tag format
+         add: honor awarded for a bg announced upon leaving 
+         add: announce player that achieved a BG objective 
+
+v0.9z.38 UPD: changed leave-queue dialog to avoid changing other fonts
+         UPD: das-boot will not auto-leave the party if unit is a group leader (up to the OQ leader to manually remove)
+         UPD: go-dark now resets broadcast msg 
+         UPD: changed brb dialog to avoid changing fonts
+         add: say-sapped capability, on by default.  check box on the setup tab
+
+v0.9z.x  BUGFIX: added party info to periodic grp_stats
+         BUGFIX: reset group & slot post-game
+         BUGFIX: fixed blinking 'queued' text
+         BUGFIX: disband group will no longer LeaveParty()
+         BUGFIX: premade note now visible to everyone in premade 
+         BUGFIX: invites cleaned up
+         BUGFIX: party chat in a BG will not forward (use bg-chat)
+         BUGFIX: ready-check no longer blinks 
+         BUGFIX: fixed tooltip on premade panel; data was inaccurate
+         BUGFIX: be-right-back button sometimes didn't show
+         UPD: role now embedded in grp_stats
+         UPD: cleaned up post-game bg status info 
+         UPD: role-check will auto-clear after 30 seconds
+         UPD: changed time until next OQ cap check from 24 hrs to 7 days
+         UPD: removing a group leader will remove the group from OQ raid, whether or not the person is online
+         UPD: removing a group leader will remove the group from OQ raid but will not dismantle the group
+         UPD: party-chat will no longer attempt to auto-route to other parties when in the BG; use bg-chat
+         UPD: removed echo from OQ capability checks
+         UPD: improved 'find premade' response time
+         UPD: improved x-realm invites and group assembly
+         UPD: improved invite pending response 
+         UPD: improved bn_msg_cracker 
+         UPD: showing the UI will automatically turn OQ on, if you had disabled it
+         UPD: waitlist buttons now hide while a premade is in a bg
+         UPD: changed advertisement msg to allow for pword protected premades 
+         UPD: added restraint for bn messages for those with large OQ enabled lists
+         UPD: changed times to use UTC time instead of local (multi time zones causing issues with bounce)
+         UPD: raised the strata for the main UI 
+         UPD: alternating the sending of some msgs to reduce msgs from lead
+         UPD: waitlist now survives reload
+         UPD: OQ compatibility check now works through the broadcast text; no more spamming bn frends
+         UPD: ready-check flag cleared on reload
+         UPD: ready-check flag bundled into "stats" msg to reduce msg barrage
+         add: auto-set roles upon entering the bg
+         add: ability to update premade information
+         add: launcher button on the honor tab that toggles the ui
+         add: waitlist 'pending' status reverts to 'waitlist' after joining a group
+         add: after joining a group, leave_waitlist sent to all premades the user had waitlisted with
+         add: ability to remove yourself from a waitlist
+         add: player's role now shown on the waitlist
+         add: added sound when new waitlist entry added
+         add: right-click leader menu for lucky charms
+         add: lucky charms now available; upon entering BG, boss will set lucky charms once BG leader received
+         add: party messages now seen in all OQ parties in the premade
+         add: bg spy 
+         add: added number of OQ enabled friends to the setup tab (lower right)
+         add: live (30-sec) score updates for premades while in a BG (on find-premade tab)
+         add: if the user had turned OQ off (/oq off), OQ will turn it back on (/oq on) next time the user shows the UI
+         add: added stats for pkts/sec
+         add: added buttons to clear and populate alt-crew for boxers (cmd line as well, /oq mycrew)
+         add: pkt statistics now visible on the setup panel
+         add: premade restriction: password 
+         add: auto-role set with check box toggle on the setup panel
+         add: filters out DBM messages sent from friends
+         add: OQ will stay open after map closes
+         add: in-time-waitlist now visible
+         add: check box for 'Use class portraits' now on setup panel; replaces normal head shot with class indicator
+         add: brb-flag; user can set himself away and it is shown on the main OQ grid
+         add: godark; send msg to all oq enabled friends ('oq stop') and clear the OQ enabled friends list
+         add: number of OQ enabled locals
+         add: leave-queue progression animation w/ LeaveParty if unclicked
+ 
+v0.9z  BUGFIX: "Enter Battle" dialog that appeared upon entering the BG is gone
+       BUGFIX: removing member from first group now works
+       BUGFIX: fixed times associated with bg stats
+       BUGFIX: fixed the number waiting to include group members
+       BUGFIX: OQ premade members not seeing other members
+       BUGFIX: bug producing yellow text while in a bg fixed
+       BUGFIX: offline toons now shown as offline
+       BUGFIX: invites that ends up as a group lead now work
+       UPD: changed the time between pings to group leaders
+       UPD: changed the find-premade response to timer based to reduce message replication and bounce
+       UPD: changed game stats to only count down time if the time between games is less then 30 minutes
+       UPD: removed 'reload' button from raid leader ui
+       UPD: change how people get on waitlist and implement waitlist acknowledgement
+       UPD: radical reduction in messages in 'open' OQ network
+       add: added open and close sounds
+       add: retains role information and set upon entering the OQ raid
+       add: ability to retain OQ premade info if /reload, /logout or disconnected for less then 60 seconds
+       add: '/oq on' will enable OQ messaging.  '/oq off' will disable messaging
+       add: command list (in response to /oq help  or  /oq ? )
+       add: all group leaders auto-set loot to ffa
+       add: ability to remove line from the waitlist ('x' on left most column)
+       add: add the number of ppl on the waitlist in the premade advertisement so ppl know how many waiting
+       add: ability to invite-to-group (right-click for pull down menu like group-lead)
+       add: added list for multiple toons under one b-net account (assumption: all toons on same realm)
+       add: ready-check now available
+
+v0.9y  BUGFIX: person no longer able to enter a waitlist more the once
+       BUGFIX: fixed 'stale' presenceIDs producing "U is not online" errors
+       BUGFIX: fixed waitlist invites from x-realm
+       BUGFIX: real-id invite was putting people in another group. fixed with protocol change
+       add: made the OQ stop message case insensitive and added a few variations (oqstop, oq stop, oqueue stop)
+       UPD: changed the time between OQ cap check from 7 days to 1 for existing bnfriends
+
+v0.9w  add: ping group leaders every 10 seconds.  if no response, assume group leader is gone and remove group
+       add: auto-remove real-ids of people that were real-friended during proxy invite 
+       BUGFIX:  group leader leaves, group stays but cannot communicate and unable to remove.  (members are now tossed from raid)
+       add: ability to remove group
+       BUGFIX: bnet messages coming into toon that isn't the group leader; must route to leader (bnet bug; cannot specify presenceID.toon_idx for messaging)
+
+v0.9v  combined messages / reduced messaging
+       add: boss-kick opt out
+       BUGFIX: person's spot disappears but person still there
+       BUGFIX: need to be able to catch the person leaving on the event
+       BUGFIX: someone leaves the group, the group leader gets spammed with 'such and such not in the group'
+
+v0.9u  added msg format check before sending
+       added params to timers
+       changed how group status information is gathered and passed
+       removed "Leave Queue" dialog when coming out of bg
+       add: boss raid kick; enable boss to kick a member while in a BG
+       add: auto-lead forward; upon entering the BG, if an OQ member has bg raid lead, transfer it to OQ raid leader 
+
+v0.9t  add: queue status colors to indicate whether or not the queue pop was good(green), bad(red), or potential split(yellow)
+
+v0.9r  increased timer for initial OQGeneral join from 5 seconds to 15
+       -  too early and OQ will grab a low channel number (it'd be nice if i could specify the channel-id...)
+       added checks to insure only OQ enabled bn friends get messages
+
+v0.9q  starting to get there.  

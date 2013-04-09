@@ -1,0 +1,3 @@
+InterruptBar: disabled
+Gladius: disabled
+BattlegroundTargets: disabled

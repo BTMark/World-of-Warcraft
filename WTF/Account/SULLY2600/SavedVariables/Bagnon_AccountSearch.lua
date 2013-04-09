@@ -1,0 +1,5 @@
+
+AccountSearchFrameSaveGlobal = {
+	["guilds"] = {
+	},
+}

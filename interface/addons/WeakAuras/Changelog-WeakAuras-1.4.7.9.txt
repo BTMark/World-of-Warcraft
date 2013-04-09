@@ -1,0 +1,60 @@
+------------------------------------------------------------------------
+r299 | stanzilla | 2013-03-05 14:49:30 +0000 (Tue, 05 Mar 2013) | 1 line
+Changed paths:
+   A /tags/1.4.7.9 (from /trunk:298)
+
+Tagging as 1.4.7.9
+------------------------------------------------------------------------
+r298 | funkydude | 2013-03-05 13:03:53 +0000 (Tue, 05 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/WeakAuras.toc
+   M /trunk/embeds.xml
+
+embed libchatanims
+------------------------------------------------------------------------
+r297 | stanzilla | 2013-03-05 02:07:09 +0000 (Tue, 05 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/WeakAuras.toc
+   M /trunk/WeakAurasModelPaths/WeakAurasModelPaths.toc
+   M /trunk/WeakAurasOptions/WeakAurasOptions.toc
+   M /trunk/WeakAurasTutorials/WeakAurasTutorials.toc
+
+I'm in your toc, updating your Interface Version to 50200.
+------------------------------------------------------------------------
+r296 | stanzilla | 2013-03-04 16:55:39 +0000 (Mon, 04 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/WeakAuras.toc
+
+fix toc
+------------------------------------------------------------------------
+r295 | stanzilla | 2013-03-04 16:53:14 +0000 (Mon, 04 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/Localization-enUS.lua
+   M /trunk/Prototypes.lua
+   M /trunk/Types.lua
+   M /trunk/WeakAuras.lua
+   M /trunk/WeakAuras.toc
+
+add optional GTFO addon integration
+------------------------------------------------------------------------
+r294 | stanzilla | 2013-02-16 21:14:19 +0000 (Sat, 16 Feb 2013) | 1 line
+Changed paths:
+   M /trunk/WeakAurasOptions/WeakAurasOptions.lua
+
+fix for the last commit
+------------------------------------------------------------------------
+r293 | stanzilla | 2013-02-16 06:33:34 +0000 (Sat, 16 Feb 2013) | 1 line
+Changed paths:
+   M /trunk/RegionTypes/model.lua
+   M /trunk/WeakAurasOptions/RegionOptions/model.lua
+   M /trunk/WeakAurasOptions/WeakAurasOptions.lua
+
+apply smcn's patch to allow entry of display ID for models
+------------------------------------------------------------------------
+r292 | stanzilla | 2013-01-05 03:51:07 +0000 (Sat, 05 Jan 2013) | 1 line
+Changed paths:
+   M /trunk/WeakAuras.lua
+
+re-enable button glow
+------------------------------------------------------------------------

@@ -1,0 +1,14 @@
+## Interface: 50200
+## Title: |cff1784d1ElvUI |rAddOnSkins
+## Version: 1.23
+## Author: Sortokk, Azilroka, others in Credits.txt
+## RequiredDeps: ElvUI
+## OptionalDeps: Skada, ElvUI_SLE
+## X-Curse-Packaged-Version: 1.23
+## X-Curse-Project-Name: ElvUI_AddOnSkins
+## X-Curse-Project-ID: elvui_addonskins
+## X-Curse-Repository-ID: wow/elvui_addonskins/mainline
+
+config\load_config.xml
+core\load_core.xml
+skins\load_skins.xml

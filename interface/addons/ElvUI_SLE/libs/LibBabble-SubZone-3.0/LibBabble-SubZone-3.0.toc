@@ -1,0 +1,21 @@
+﻿## Interface: 50100
+## LoadOnDemand: 1
+## Title: Lib: Babble-SubZone-3.0
+## Notes: A library to help with localization of in-game subzone names.
+## Notes-zhTW: 為本地化服務的函式庫 [副區域名稱]
+## Author: Arith
+## X-eMail: arithmandarjp@yahoo.co.jp
+## X-Category: Library
+## X-License: MIT
+## X-Curse-Packaged-Version: 5.1-release1
+## X-Curse-Project-Name: LibBabble-SubZone-3.0
+## X-Curse-Project-ID: libbabble-subzone-3-0
+## X-Curse-Repository-ID: wow/libbabble-subzone-3-0/mainline
+## X-Curse-Packaged-Version: v1.62
+## X-Curse-Project-Name: ElvUI Shadow & Light Edit
+## X-Curse-Project-ID: shadow-and-light-edit
+## X-Curse-Repository-ID: wow/shadow-and-light-edit/mainline
+
+LibStub\LibStub.lua
+lib.xml
+

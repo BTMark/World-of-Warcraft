@@ -1,0 +1,220 @@
+v1.62 March 24, 2013
+- Removed Caster Name in tooltip, was added in ElvUI
+- Another attempt to fix player frame resizing if Classbar offset was enabled in S&L
+
+v1.61 March 23, 2013
+- Hide Coords During Pet Battle
+- Added options to hide S&L Datatext Panels during Pet Battles
+
+v1.60 March 22, 2013
+- Fixed AceConfig Error
+- Fixed LUA Error on Repooc install
+
+v1.59 March 19, 2013
+- Fixed Curse Ticket: #15
+- Added S&L Guild Datatext
+- Added S&L Friends Datatext
+- Tweaked Darth & Repooc's Config
+- Optimized Farm Module
+
+v1.58 March 15, 2013
+- Removed ElvUIPlugin Library
+- Farm module optimized
+- Seed bags bought for seeds are now taken into account by farm module
+
+v1.57 March 13, 2013
+- Sortokk forgot to add spirit into xml file cough cough
+
+v1.56 March 13, 2013
+- Added Spirit Datatext
+
+v1.55 March 13, 2013
+- Remove Debug Message
+
+v1.54 March 13, 2013
+- Add autotrack reputation
+- Updated Libraries
+- Updated Author installs
+
+v1.53 March 8, 2013
+- Optimize Farm Module
+- Update install to be updated with ElvUI variables
+
+v1.52 March 6, 2013
+- Fixed farm bar seed bag count not updating on use
+
+v1.51 March 6, 2013
+Fixed compatibility issue with Location Plus pligin. Hopefully forever
+
+v1.5 March 5, 2013
+- Some typos fixed
+- Datatext panels can now be transparent
+- Background frames no longer have offset options, now they have own movers
+- Background frames template doesn't require reload and is a profile based option
+- Movers created by S&L now are grouped by own categories just like in ElvUI itself (Note: background frames' movers are available ONLY in those groups)
+- Raid Marks now properly update setting on profile change
+- Raid Marks module now has an option to hide backdrop for it's main panel
+- Added Item Level overlay on item slots
+- Added Item Durability overlay on item slots
+- Added Equipment Manager per spec/zone
+- Added Farm module to make farming easier.
+- Added skinning of minimap buttons
+- Added coordinates to the minimap
+- LFR Lockout tracking in time datatext now has options to choose what daungeons you want to show there
+- Top datapanel info can now be changed by user
+- You will now receive chat message if someone in your group/raid has newer version of S&L
+- Add Affinitii's (Blood Legion) UI Layout
+- Darth's Layout Modified
+- Added loot announce function
+
+v1.42 (January 31, 2013)
+- Curse being stupid and fixed changelog b/c darth dont realize there are 31 days in Jan.
+
+v1.41 (January 31, 2013)
+- Fixed version datatext error 
+
+v.1.4a (January 30, 2013)
+- Fix for pet battle actionbar detached from the mover
+
+v1.4 (January 21, 2013)
+- Fix for LFR info not available on toltip for time datatext
+
+v1.39 (January 19, 2013)
+- Fixed stack overflow on pet battles
+- Fixed overlooked missing english locale
+
+v1.38 (January 18, 2013)
+- Fixed to work with ElvUI 5.26 
+
+v1.37 (January 8, 2013)
+- Decimals are once again shown for hp/power texts on unit frames for full values
+
+v1.36 (January 8, 2013)
+- Some tweaks to better work with ElvUI 5.20
+
+v1.35 (December 28, 2012)
+- Fixed compatibility with full Location Plus version
+
+v1.34 (December 12, 2012)
+- Fixed rune bar error when using classbar offset
+
+v1.33 (December 2, 2012)
+- Fixed errors on auras tooltips
+- Fixed health bar height with classbar offset enabled
+
+v1.32 (November 27, 2012)
+- Config updated
+
+v1.31 (November 27, 2012)
+- Repooc config updated
+
+v1.3 (November 27, 2012)
+- Authors' layouts have been changed
+- Mount serach was deleted, Blizzard added that themselves
+- Some adjustions for pixel perfect mode to make things look good
+- Caster name in auras' tooltips is now profile based option
+- An option added to chosee if you want your power text to be on power bar or health bar (health by default as in normal ElvUI)
+- Raid Utility options removed. Now it's fully movable with it's own mover
+- Added a mover for world/BG pvp score - Hellfire towers, AV reinforcements, AB resources, etc. (Darth grow tired of using MoveAnything)
+- Capture bar is now docked to the bottom of a new mover
+- Show errors in combat is now profile based option
+- Added S&L version number to version datatext, login message and config
+- Buttons for resetting all S&L options or just desired group's options have been added
+- You can now see changelog in game
+- Added alternative mene regen datatext called "MP5". It shows an "mp5" title instead of "mana regen"
+
+v1.22 (November 8, 2012)
+- Fixed our settings packs in installation
+- You will be able to see your castbar and other stuff while in vehicle again (apparently it was there for ages and no one reported that o_O)
+- The option to hide combat indicator was removed. You can choose to hide it in it's positioning dropdown list now.
+- Fixed some issues with loading that resulted in disappearing of S&L mover group in config mode.
+
+v1.21 (November 1, 2012)
+- Fixed small error
+
+v1.20 (November 1, 2012)
+- Code catch up with ElvUI
+- Some code restructure to reduce memory
+- Small fixes/tweaks
+
+v1.19 (October 24, 2012)
+- Code catch up with ElvUI
+- Added show/hide option for errors in combat (out of LoS, on cooldown, etc)
+- Changed the way reputation is shown on bar
+- Added Ampere Addon Control Panel to UI Buttons
+- Fixed wrong rested percent with cur-percent mode of experience bar (195000000% of rested? Easy)
+- Added new options for loot history frame
+- Add ability to show Raid Markers only in the instance.
+
+v1.18 (October 9, 2012)
+- Fixed red flying could not showing in the mount list
+
+v1.17 (September 30, 2012)
+- Fixed Mount Search bug when skinning was disabled.
+- Fixed Background Panels & Pet Battle Bar having frame level issues.
+- Fixed left chat being to close to the edge of the frame.
+- Added ability to show/hide background panels during pet battles
+
+v1.16 (September 24, 2012)
+- Added Search Feature for Mount Window by p3lim
+- Fixed lua error about missing locale for ElvUI Hud during install process(It was mistyped)
+- Fixed Raid Marker not toggling off
+
+v1.15 (September 7, 2012)
+- Fix Curse Ticket #3
+
+v1.14 (September 5, 2012)
+- Updated Install to catch up with ElvUI
+- Updated Repooc Settings to more current setup
+
+v1.13 (September 1, 2012)
+- Fixed Combat Icon Error when ElvUI Unitframes were disabled.
+- Updated Install file to ElvUI additions
+
+v1.12 (August 31, 2012)
+- Fixed Time Datatext error
+
+v1.11 (August 30, 2012)
+- Fixrd editbox positioning when ElvUI chat is disabled
+
+v1.1 (August 28, 2012)
+- (Backend) Optimize Druid Resource
+- (Backend) Private options now use Elv's popus
+- Added Demonic Fury number on warlock classbar
+- Added debuff resizing
+- Added hiding for combat ico
+- Readded castername in buff/debuff icon due to darth rewriting auras.lua and not doing his job
+- Moved options for auras to its own category
+- Removed some skinning of addons as we are now working with Azilroka on the skinning package.
+- Removed embed right fix due it being removed from ElvUI
+- Fixed the chat text going over the panel's border
+- Options for full values on hp/power text changed due to ElvUI's changes in text formatting. Now you can use tags. Just add a ":sl" at the end of the health or power tag to get full value. Doesn't work with percent.
+- Background frames now have an option for transparancy
+- Exp/Rep bar text options were changed to show full or short values
+- Added an option to move editbox for chat pannels
+- PvP text options were removed, ElvUI now has it's own
+- Removed Skada and DBM skins
+- Removed Pet Autocast option
+- Changed positions of some options
+
+v1.03 (July 25, 2012)
+- Fixed Combatlog not anchoring correctly in right panel as the only chat window
+- Fixed Microbar Bug (Leave combat issue)
+- Added the vengeance bar for tanks (without options atm)
+- Deleted keywords sounds (Elv has his own)
+- Increased the recommended version number
+
+v1.02 (July 15, 2012)
+- Updated Repooc install
+- Added Poisner Skin
+- Added Outfitter skin
+- Fixed Microbar Bug
+- Fixed RaidUtility button not changing position on profile change
+
+v1.01 (July 11, 2012)
+- Skada/Recount embedright tweaked
+- Minor install tweaks
+- Added Alphabet layout to Microbar
+
+v1.0 (July 7, 2012)
+- Inital Release

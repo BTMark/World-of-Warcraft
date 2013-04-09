@@ -1,0 +1,18 @@
+tag v2.5.4
+1926f034baf46b6b918b0a09f5c19b8889928773
+Virtual <virtual@wipeinprogress.com>
+2013-03-06 14:26:48 -0600
+
+Tagging as v2.5.4
+
+
+--------------------
+
+Virtual:
+	- Updating the TOC for 5.2.
+	- GetRaidDifficulty changed in 5.2
+	- Removing comments and fixing break.
+	That'll teach me to commit without running through Warcraft first.
+	- Towelliee HD Gaming -
+	Towelliee HD Gaming is legit, shoe on head coding.
+	Don't trust the interwebz!

@@ -1,0 +1,25 @@
+## Title: oQueue
+## Version: 1.1.6
+## Interface: 50200
+## Author: Tiny of the Zerg
+## Notes: Oath's premade finder using social mesh networking
+## X-Category: PvP
+## X-Website: http://www.solidice.com/oqueue
+## DefaultState: enabled
+## SavedVariables: OQ_data
+## SavedVariablesPerCharacter: OQ_toon
+
+oqueue.defines.lua
+
+locales\oqueue.en.lua
+locales\oqueue.br.lua
+locales\oqueue.de.lua
+locales\oqueue.es.lua
+locales\oqueue.ru.lua
+
+region\realms.us.lua
+region\realms.eu.lua
+
+oqueue.lua
+
+oqueue.xml
