@@ -4,102 +4,10 @@ ReforgeLiteDB = {
 	["updateTooltip"] = true,
 	["windowY"] = 755.2169799804688,
 	["reforgeCheat"] = 5,
-	["methodWindowY"] = 719.6737670898438,
+	["windowX"] = 536.0000610351563,
 	["profiles"] = {
 		["Mooselini - Area 52"] = {
-			["method"] = {
-				["items"] = {
-					{
-						["dst"] = 5,
-						["src"] = 4,
-						["reforge"] = 25,
-						["amount"] = 293,
-					}, -- [1]
-					{
-						["dst"] = 6,
-						["src"] = 8,
-						["reforge"] = 55,
-						["amount"] = 214,
-					}, -- [2]
-					{
-					}, -- [3]
-					{
-						["dst"] = 5,
-						["src"] = 1,
-						["reforge"] = 4,
-						["amount"] = 194,
-					}, -- [4]
-					{
-						["dst"] = 5,
-						["src"] = 4,
-						["reforge"] = 25,
-						["amount"] = 287,
-					}, -- [5]
-					{
-						["dst"] = 1,
-						["src"] = 4,
-						["reforge"] = 22,
-						["amount"] = 177,
-					}, -- [6]
-					{
-						["dst"] = 6,
-						["src"] = 8,
-						["reforge"] = 55,
-						["amount"] = 244,
-					}, -- [7]
-					{
-					}, -- [8]
-					{
-						["dst"] = 6,
-						["src"] = 8,
-						["reforge"] = 55,
-						["amount"] = 282,
-					}, -- [9]
-					{
-						["dst"] = 6,
-						["src"] = 1,
-						["reforge"] = 5,
-						["amount"] = 259,
-					}, -- [10]
-					{
-						["dst"] = 5,
-						["src"] = 1,
-						["reforge"] = 4,
-						["amount"] = 141,
-					}, -- [11]
-					{
-						["dst"] = 6,
-						["src"] = 8,
-						["reforge"] = 55,
-						["amount"] = 194,
-					}, -- [12]
-					{
-					}, -- [13]
-					{
-					}, -- [14]
-					{
-						["dst"] = 6,
-						["src"] = 1,
-						["reforge"] = 5,
-						["amount"] = 137,
-					}, -- [15]
-					{
-						["dst"] = 5,
-						["src"] = 1,
-						["reforge"] = 4,
-						["amount"] = 132,
-					}, -- [16]
-				},
-				["stats"] = {
-					3602, -- [1]
-					0, -- [2]
-					0, -- [3]
-					5130, -- [4]
-					3582, -- [5]
-					8822, -- [6]
-					0, -- [7]
-					1546, -- [8]
-				},
+			["customMethodPresets"] = {
 			},
 			["weights"] = {
 				0, -- [1]
@@ -165,25 +73,117 @@ ReforgeLiteDB = {
 			},
 			["itemsLocked"] = {
 			},
-			["customMethodPresets"] = {
+			["method"] = {
+				["items"] = {
+					{
+						["dst"] = 5,
+						["src"] = 4,
+						["amount"] = 293,
+						["reforge"] = 25,
+					}, -- [1]
+					{
+						["dst"] = 6,
+						["src"] = 8,
+						["amount"] = 214,
+						["reforge"] = 55,
+					}, -- [2]
+					{
+					}, -- [3]
+					{
+						["dst"] = 5,
+						["src"] = 1,
+						["amount"] = 194,
+						["reforge"] = 4,
+					}, -- [4]
+					{
+						["dst"] = 5,
+						["src"] = 4,
+						["amount"] = 287,
+						["reforge"] = 25,
+					}, -- [5]
+					{
+						["dst"] = 1,
+						["src"] = 4,
+						["amount"] = 177,
+						["reforge"] = 22,
+					}, -- [6]
+					{
+						["dst"] = 6,
+						["src"] = 8,
+						["amount"] = 244,
+						["reforge"] = 55,
+					}, -- [7]
+					{
+					}, -- [8]
+					{
+						["dst"] = 6,
+						["src"] = 8,
+						["amount"] = 282,
+						["reforge"] = 55,
+					}, -- [9]
+					{
+						["dst"] = 6,
+						["src"] = 1,
+						["amount"] = 259,
+						["reforge"] = 5,
+					}, -- [10]
+					{
+						["dst"] = 5,
+						["src"] = 1,
+						["amount"] = 141,
+						["reforge"] = 4,
+					}, -- [11]
+					{
+						["dst"] = 6,
+						["src"] = 8,
+						["amount"] = 194,
+						["reforge"] = 55,
+					}, -- [12]
+					{
+					}, -- [13]
+					{
+					}, -- [14]
+					{
+						["dst"] = 6,
+						["src"] = 1,
+						["amount"] = 137,
+						["reforge"] = 5,
+					}, -- [15]
+					{
+						["dst"] = 5,
+						["src"] = 1,
+						["amount"] = 132,
+						["reforge"] = 4,
+					}, -- [16]
+				},
+				["stats"] = {
+					3602, -- [1]
+					0, -- [2]
+					0, -- [3]
+					5130, -- [4]
+					3582, -- [5]
+					8822, -- [6]
+					0, -- [7]
+					1546, -- [8]
+				},
 			},
 		},
 	},
 	["windowWidth"] = 800,
 	["itemSize"] = 24,
-	["customPresets"] = {
-	},
+	["methodWindowY"] = 719.6737670898438,
 	["methodWindowX"] = 1399.564819335938,
-	["inactiveWindowTitle"] = {
-		0.5, -- [1]
-		0.5, -- [2]
-		0.5, -- [3]
-	},
+	["openOnReforge"] = true,
 	["activeWindowTitle"] = {
 		0.8, -- [1]
 		0, -- [2]
 		0, -- [3]
 	},
-	["openOnReforge"] = true,
-	["windowX"] = 536.0000610351563,
+	["inactiveWindowTitle"] = {
+		0.5, -- [1]
+		0.5, -- [2]
+		0.5, -- [3]
+	},
+	["customPresets"] = {
+	},
 }

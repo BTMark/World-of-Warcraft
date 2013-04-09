@@ -10,15 +10,35 @@ OQ_data = {
 		["tears"] = 14,
 		["avg_hks"] = 0,
 		["bg_end"] = 0,
-		["avg_honor"] = 0,
 		["total_tears"] = 14,
 		["bg_start"] = 1365308529,
+		["avg_honor"] = 0,
 		["avg_down_tm"] = 0,
 		["nWins"] = 0,
 		["avg_deaths"] = 0,
 	},
-	["log"] = {
+	["scores"] = {
+		["timeleft"] = 23177,
+		["end_round_tm"] = 1365490800,
+		["alliance"] = 2389,
+		["ngames"] = 4974,
+		["horde"] = 4208,
+		["time_lag"] = 12,
+		["bg"] = {
+			["ToK"] = 38,
+			["AV"] = 72,
+			["WSG"] = 31,
+			["EotS"] = 30,
+			["TP"] = 33,
+			["AB"] = 28,
+			["SotA"] = 29,
+			["IoC"] = 82,
+			["SSM"] = 21,
+			["BFG"] = 34,
+		},
+		["start_round_tm"] = 1364886000,
 	},
+	["btag_submitted"] = 1365227354,
 	["btag_cache"] = {
 		["Syiax#1168"] = {
 			["tm"] = 1365631010,
@@ -62,11 +82,11 @@ OQ_data = {
 		["Vastrin#1583"] = {
 			["tm"] = 1365630823,
 		},
-		["Synethesia#1865"] = {
-			["tm"] = 1365630920,
-		},
 		["johnnnnny2#1821"] = {
 			["tm"] = 1365634378,
+		},
+		["Synethesia#1865"] = {
+			["tm"] = 1365630920,
 		},
 		["OQSK#1855"] = {
 			["tm"] = 1365551354,
@@ -75,34 +95,14 @@ OQ_data = {
 			["tm"] = 1365634372,
 		},
 	},
-	["ok2submit_tag"] = 1,
-	["show_premade_ads"] = 1,
+	["btag_submittal_tm"] = 1365551354,
 	["autoaccept_mesh_request"] = 1,
+	["announce_spy"] = 1,
+	["realid"] = "BTMark#1285",
 	["banned"] = {
 	},
-	["realid"] = "BTMark#1285",
-	["announce_spy"] = 1,
-	["btag_submittal_tm"] = 1365551354,
-	["btag_submitted"] = 1365227354,
-	["scores"] = {
-		["timeleft"] = 28710,
-		["alliance"] = 2365,
-		["end_round_tm"] = 1365490800,
-		["horde"] = 4176,
-		["ngames"] = 4930,
-		["time_lag"] = 12,
-		["bg"] = {
-			["ToK"] = 38,
-			["AV"] = 72,
-			["WSG"] = 31,
-			["EotS"] = 30,
-			["TP"] = 32,
-			["AB"] = 28,
-			["SotA"] = 29,
-			["SSM"] = 21,
-			["IoC"] = 82,
-			["BFG"] = 34,
-		},
-		["start_round_tm"] = 1364886000,
+	["show_premade_ads"] = 1,
+	["ok2submit_tag"] = 1,
+	["log"] = {
 	},
 }

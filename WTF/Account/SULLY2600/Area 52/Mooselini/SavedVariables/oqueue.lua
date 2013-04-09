@@ -12,18 +12,18 @@ OQ_toon = {
 	["my_toons"] = {
 	},
 	["player_role"] = 1,
-	["last_tm"] = 1365463974,
+	["last_tm"] = 1365467642,
 	["wins"] = 2,
 	["losses"] = 5,
 	["my_group"] = 0,
-	["marquee_x"] = 351.8045043945313,
-	["waitlist"] = {
-	},
+	["shout_kbs"] = 1,
+	["my_slot"] = 0,
 	["say_sapped"] = 1,
-	["class_portrait"] = 1,
-	["auto_role"] = 1,
 	["reports"] = {
 	},
-	["my_slot"] = 0,
-	["shout_kbs"] = 1,
+	["class_portrait"] = 1,
+	["auto_role"] = 1,
+	["waitlist"] = {
+	},
+	["marquee_x"] = 351.8045043945313,
 }

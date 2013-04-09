@@ -50,8 +50,8 @@ BigWigs3DB = {
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
 				["Default"] = {
-					["fontSize"] = 20,
 					["font"] = "Friz Quadrata TT",
+					["fontSize"] = 20,
 				},
 			},
 		},
@@ -60,8 +60,8 @@ BigWigs3DB = {
 				["Default"] = {
 					["posx"] = 190.8870488930461,
 					["fontSize"] = 20,
-					["posy"] = 238.9332957161787,
 					["font"] = "Friz Quadrata TT",
+					["posy"] = 238.9332957161787,
 				},
 			},
 		},
@@ -153,17 +153,17 @@ BigWigsStatisticsDB = {
 				["kills"] = 1,
 			},
 		},
+		[828] = {
+			["lfr"] = {
+				["best"] = 307.6130000000003,
+				["kills"] = 1,
+			},
+		},
 		[818] = {
 			["lfr"] = {
 				["kills"] = 1,
 				["wipes"] = 7,
 				["best"] = 462.735999999999,
-			},
-		},
-		[828] = {
-			["lfr"] = {
-				["best"] = 307.6130000000003,
-				["kills"] = 1,
 			},
 		},
 	},
