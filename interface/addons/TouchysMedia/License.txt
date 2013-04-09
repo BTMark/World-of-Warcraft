@@ -1,0 +1,7 @@
+The fonts bundled with this addon are licensed under the SIL Open Font License
+Version 1.1 and was created by Adobe Systems Incorporated.
+
+Please see "Licenses\SIL LICENSE.txt" for font license details or read it online
+with an FAQ at http://scripts.sil.org/OFL
+---
+This Addon also includes LibStub which was released to the public domain.

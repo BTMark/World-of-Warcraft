@@ -1,0 +1,26 @@
+## Interface: 50200
+## Title: Touchy's Media
+## Notes: Adds fonts, borders,backgrounds, etc. from my UI to SharedMedia
+## Version: 1.0.0
+## Author: Touchymcfeel
+## X-Category: Miscellaneous
+## X-Credits: Elkano, pb_ee1, and Adobe Systems Inc.
+## X-Curse-Packaged-Version: r20130315222317
+## X-Curse-Project-Name: Touchy's Media
+## X-Curse-Project-ID: touchys-media
+## X-Curse-Repository-ID: wow/touchys-media/mainline
+
+## OptionalDeps: LibSharedMedia-3.0, LibSharedMedia-2.0, SharedMediaLib
+
+Libs\LibStub\LibStub.lua
+
+TouchysMedia.lua
+TouchysBackgrounds.lua
+TouchysBorders.lua
+TouchysFonts.lua
+TouchysGlows.lua
+TouchysSounds.lua
+TouchysStatusbars.lua
+TouchysTextures.lua
+TouchysLuaFunctions.lua
+TouchysMasque.lua

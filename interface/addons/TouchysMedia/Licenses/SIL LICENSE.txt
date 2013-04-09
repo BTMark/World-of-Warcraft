@@ -1,0 +1,10 @@
+The Silkscreen family of fonts was designed by Jason Kottke and is distributed at 
+http://kottke.org/plus/type/silkscreen/
+
+The terms of use for the font are taken from the website as of March 11, 2013:
+
+What are the terms of use for Silkscreen?
+You may use it or distribute it as a freeware font on your site, but just don't
+claim you made it. You may not modify and then redistribute this type family.
+You may, however, modify it for your own personal use. You also may not charge
+any money for this font.

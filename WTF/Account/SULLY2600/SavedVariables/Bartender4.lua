@@ -8,33 +8,39 @@ Bartender4DB = {
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = 41.75,
-								["x"] = -254,
-								["point"] = "BOTTOM",
+								["y"] = -197.0422973632813,
+								["x"] = -232.0000305175781,
+								["point"] = "TOP",
 							},
-							["padding"] = 6,
+							["visibility"] = {
+								["always"] = true,
+							},
 						}, -- [1]
 						{
-							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -189.5,
-								["x"] = -231.5000610351563,
-								["point"] = "CENTER",
+								["y"] = -157.0423583984375,
+								["x"] = -232.0000305175781,
+								["point"] = "TOP",
+							},
+							["visibility"] = {
+								["always"] = true,
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 232.689208984375,
-								["x"] = -85,
-								["point"] = "RIGHT",
+								["y"] = -240.2161865234375,
+								["x"] = -231.9999847412109,
+								["point"] = "TOP",
 							},
-							["padding"] = 5,
+							["visibility"] = {
+								["always"] = true,
+							},
 						}, -- [3]
 						{
 							["rows"] = 12,
+							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 232.8513488769531,
@@ -44,6 +50,7 @@ Bartender4DB = {
 							["padding"] = 5,
 						}, -- [4]
 						{
+							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 126.0032501220703,
@@ -53,6 +60,7 @@ Bartender4DB = {
 							["padding"] = 6,
 						}, -- [5]
 						{
+							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 83,
@@ -67,6 +75,18 @@ Bartender4DB = {
 						}, -- [8]
 						nil, -- [9]
 						{
+							["enabled"] = true,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -406.0000267028809,
+								["point"] = "CENTER",
+								["scale"] = 1.75,
+								["y"] = -475,
+							},
+							["states"] = {
+								["enabled"] = true,
+								["possess"] = true,
+							},
 						}, -- [10]
 					},
 				},
@@ -77,6 +97,7 @@ Bartender4DB = {
 		["ExtraActionBar"] = {
 			["profiles"] = {
 				["Mooselini - Area 52"] = {
+					["enabled"] = false,
 					["position"] = {
 						["y"] = 227.6305847167969,
 						["x"] = 10.5780029296875,
@@ -89,14 +110,15 @@ Bartender4DB = {
 		["MicroMenu"] = {
 			["profiles"] = {
 				["Mooselini - Area 52"] = {
-					["fadeout"] = true,
+					["enabled"] = false,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 34.42500096559525,
 						["x"] = -4.674992835521493,
 						["point"] = "BOTTOMLEFT",
 						["scale"] = 0.8500000238418579,
 					},
-					["version"] = 3,
+					["fadeout"] = true,
 				},
 			},
 		},
@@ -117,6 +139,7 @@ Bartender4DB = {
 		["BagBar"] = {
 			["profiles"] = {
 				["Mooselini - Area 52"] = {
+					["enabled"] = false,
 					["onebag"] = true,
 					["position"] = {
 						["y"] = 36.00000381469727,
@@ -124,6 +147,19 @@ Bartender4DB = {
 						["point"] = "BOTTOMRIGHT",
 					},
 					["version"] = 3,
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Mooselini - Area 52"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.49993896484375,
+						["x"] = 99.49993896484375,
+						["point"] = "CENTER",
+					},
 				},
 			},
 		},
@@ -141,21 +177,10 @@ Bartender4DB = {
 				},
 			},
 		},
-		["Vehicle"] = {
-			["profiles"] = {
-				["Mooselini - Area 52"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.49993896484375,
-						["x"] = 99.49993896484375,
-						["point"] = "CENTER",
-					},
-				},
-			},
-		},
 		["PetBar"] = {
 			["profiles"] = {
 				["Mooselini - Area 52"] = {
+					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
 						["y"] = 169.6305999755859,
@@ -174,6 +199,9 @@ Bartender4DB = {
 	["profiles"] = {
 		["Mooselini - Area 52"] = {
 			["focuscastmodifier"] = false,
+			["minimapIcon"] = {
+				["hide"] = true,
+			},
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},

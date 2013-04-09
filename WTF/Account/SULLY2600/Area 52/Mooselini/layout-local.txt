@@ -1,13 +1,13 @@
 Version: 1
 Frame: TargetFrame
-FrameLevel: 18
+FrameLevel: 12
 Anchor: CENTER
 X: 238
 Y: -98
 W: 232
 H: 100
 Frame: FocusFrame
-FrameLevel: 14
+FrameLevel: 8
 Anchor: CENTER
 X: 266
 Y: -141
@@ -26,7 +26,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 240
+H: 200
 Frame: LootHistoryFrame
 FrameLevel: 1
 Anchor: RIGHT
@@ -35,7 +35,7 @@ Y: -151
 W: 210
 H: 175
 Frame: OQMainFrame
-FrameLevel: 7
+FrameLevel: 39
 Anchor: CENTER
 X: 131
 Y: 23

@@ -1,3 +1,17 @@
 InterruptBar: disabled
 Gladius: disabled
 BattlegroundTargets: disabled
+oqueue: enabled
+PitBull4_BurningEmbers: disabled
+PitBull4_Chi: disabled
+PitBull4_ComboPoints: disabled
+PitBull4_DemonicFury: disabled
+PitBull4_DogTagTexts: disabled
+PitBull4_DruidManaBar: disabled
+PitBull4_Eclipse: disabled
+PitBull4_ExperienceBar: disabled
+PitBull4_HolyPower: disabled
+PitBull4_Runes: enabled
+PitBull4_SoulShards: disabled
+PitBull4_Totems: disabled
+PitBull4_VoiceIcon: disabled

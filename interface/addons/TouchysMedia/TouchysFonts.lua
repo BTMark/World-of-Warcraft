@@ -1,0 +1,17 @@
+﻿if not TouchysMedia then return end
+
+TouchysMedia:Register("font", "SSPro - Black", [[Interface\Addons\TouchysMedia\fonts\SourceSansPro-Black.ttf]])
+TouchysMedia:Register("font", "SSPro - Black Italic", [[Interface\Addons\TouchysMedia\fonts\SourceSansPro-BlackIt.ttf]])
+TouchysMedia:Register("font", "SSPro - Bold", [[Interface\Addons\TouchysMedia\fonts\SourceSansPro-Bold.ttf]])
+TouchysMedia:Register("font", "SSPro - Bold italic", [[Interface\Addons\TouchysMedia\fonts\SourceSansPro-BoldIt.ttf]])
+TouchysMedia:Register("font", "SSPro - Extra Light", [[Interface\Addons\TouchysMedia\fonts\SourceSansPro-ExtraLight.ttf]])
+TouchysMedia:Register("font", "SSPro - Extra Light Italic", [[Interface\Addons\TouchysMedia\fonts\SourceSansPro-ExtraLightIt.ttf]])
+TouchysMedia:Register("font", "SSPro - Italic", [[Interface\Addons\TouchysMedia\fonts\SourceSansPro-It.ttf]])
+TouchysMedia:Register("font", "SSPro - Light", [[Interface\Addons\TouchysMedia\fonts\SourceSansPro-Light.ttf]])
+TouchysMedia:Register("font", "SSPro - Light Italic", [[Interface\Addons\TouchysMedia\fonts\SourceSansPro-LightIt.ttf]])
+TouchysMedia:Register("font", "SSPro - Regular", [[Interface\Addons\TouchysMedia\fonts\SourceSansPro-Regular.ttf]])
+TouchysMedia:Register("font", "SSPro - Semibold", [[Interface\Addons\TouchysMedia\fonts\SourceSansPro-Semibold.ttf]])
+TouchysMedia:Register("font", "Silkscreen - Regular", [[Interface\Addons\TouchysMedia\fonts\slkscr.ttf]])
+TouchysMedia:Register("font", "Silkscreen - Bold", [[Interface\Addons\TouchysMedia\fonts\slkscrb.ttf]])
+TouchysMedia:Register("font", "Silkscreen - Expanded", [[Interface\Addons\TouchysMedia\fonts\slkscre.ttf]])
+TouchysMedia:Register("font", "Silkscreen - Expanded Bold", [[Interface\Addons\TouchysMedia\fonts\slkscreb.ttf]])

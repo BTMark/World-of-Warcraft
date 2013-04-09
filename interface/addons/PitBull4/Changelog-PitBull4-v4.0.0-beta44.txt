@@ -1,0 +1,44 @@
+tag v4.0.0-beta44
+6c15111676f0b9c1d2588f965344cab5722aecf0
+Shefki <shefki@shefki.org>
+2013-04-01 20:06:35 -0700
+
+Tagging as v4.0.0-beta44
+
+
+--------------------
+
+Shefki:
+	- Oops duplicated a line unintentionally.
+	- Add support for warlock green fire to the BurningEmbers module.
+	- Set the extra2 value to 0 for other bar modules (prevents ghost extra values from showing up when bars get reused).
+	- Add support for showing absorbs in the VisualHeal module.
+	- Add a 2nd extra bar to BetterStatusBar.
+	- Return to old style menus for raid frames since Blizzard has a bug in the new menu system.  Includes a somewhat ugly hack around Clique forcing the use of the new menu system.
+	- Display friendships properly in the ReptutationBar & LuaTexts.
+	- Remove pre-5.1 compatibility from Aura Filters.
+	- Remove pre 5.1 support from Chi module.
+	- Remove pre-mop compatibility from UnitFrame.lua
+	Conflicts:
+	
+		UnitFrame.lua
+	- Remove pre-mop compatibility in ThreatBar module.
+	- Remove support for old guid format.
+	- Remove check for MoP from ShadowOrbs module.
+	- Remove pre-mop compatibility from ReadyCheckIcon module.
+	- Remove pre-mop compatibility from RangeFader module.
+	- Remove pre-mop compatibility from RaidTargetIcon module.
+	- Remove pre-mop compatibility from MasterLooterIcon module.
+	- Remove pre-mop compatibility from the LuaTexts script environment.
+	- Remove pre-mop compatibility from LuaTexts module.
+	- Remove pre-mop compatibility from LeaderIcon module.
+	- Remove pre-mop compatability from HolyPower module.
+	- Remove pre-mop compatability from HealthBar module.
+	- Remove pre-mop support from Main.lua
+	- Remove pre-mop support from Eclipse module.
+	- Remove pre-mop support for raid/party events from HideBlizzard module.
+	- Remove pre-mop code to support ranged slot.
+	- Enable Totems module for Mages with Rune of Power.
+	- Remove pre-MOP compat from Totem module.
+	- Just stop using MAX_ARENA_TEAM_MEMBERS entirely, it wasn't really the right constant anyway.
+	- Switch to using the new 5.2 based popup menu system.  This will allow the SetFocus/ClearFocus, Dismiss etc...  However, this also does remove the feature to add Ready and Role Check menus for group leaders.

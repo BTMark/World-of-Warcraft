@@ -92,6 +92,7 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0.2,
 			["auto"] = true,
+			["id"] = "Power Infusion",
 			["additional_triggers"] = {
 				{
 					["trigger"] = {
@@ -111,7 +112,6 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["id"] = "Power Infusion",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -151,9 +151,9 @@ WeakAurasSaved = {
 				["subeventPrefix"] = "SPELL",
 				["spellName"] = "Rapture",
 				["event"] = "Combat Log",
-				["use_spellName"] = true,
-				["use_powerType"] = true,
 				["powerType"] = 0,
+				["use_powerType"] = true,
+				["use_spellName"] = true,
 				["unevent"] = "timed",
 				["use_sourceunit"] = false,
 				["use_destunit"] = true,
@@ -332,7 +332,6 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0.2,
 			["auto"] = true,
-			["id"] = "PW:B",
 			["additional_triggers"] = {
 				{
 					["trigger"] = {
@@ -352,6 +351,7 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
+			["id"] = "PW:B",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -395,13 +395,14 @@ WeakAurasSaved = {
 			},
 			["animate"] = true,
 			["xOffset"] = -415,
-			["regionType"] = "dynamicgroup",
-			["border"] = "None",
-			["yOffset"] = -110,
 			["anchorPoint"] = "CENTER",
+			["border"] = "None",
+			["untrigger"] = {
+			},
+			["regionType"] = "dynamicgroup",
 			["expanded"] = false,
 			["sort"] = "descending",
-			["borderOffset"] = 11,
+			["radius"] = 200,
 			["space"] = 2,
 			["background"] = "Blizzard Dialog Background Dark",
 			["actions"] = {
@@ -411,12 +412,20 @@ WeakAurasSaved = {
 				},
 			},
 			["constantFactor"] = "RADIUS",
-			["additional_triggers"] = {
+			["trigger"] = {
+				["type"] = "aura",
+				["unit"] = "player",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+				},
+				["event"] = "Health",
+				["subeventPrefix"] = "SPELL",
 			},
-			["radius"] = 200,
-			["align"] = "CENTER",
-			["selfPoint"] = "CENTER",
+			["backgroundInset"] = 10,
 			["id"] = "Priest Mainbar",
+			["selfPoint"] = "CENTER",
+			["align"] = "CENTER",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -436,18 +445,10 @@ WeakAurasSaved = {
 			["rotation"] = 0,
 			["stagger"] = 0,
 			["numTriggers"] = 1,
-			["trigger"] = {
-				["type"] = "aura",
-				["unit"] = "player",
-				["subeventSuffix"] = "_CAST_START",
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-				},
-				["event"] = "Health",
-				["subeventPrefix"] = "SPELL",
+			["additional_triggers"] = {
 			},
 			["height"] = 34.75,
-			["backgroundInset"] = 10,
+			["borderOffset"] = 11,
 			["load"] = {
 				["role"] = {
 					["multi"] = {
@@ -466,8 +467,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["untrigger"] = {
-			},
+			["yOffset"] = -110,
 		},
 		["Desperate Prayer"] = {
 			["disjunctive"] = true,
@@ -519,14 +519,14 @@ WeakAurasSaved = {
 				["name"] = "Affinity",
 				["use_never"] = true,
 				["use_name"] = false,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
 				["class"] = {
 					["single"] = "PRIEST",
 					["multi"] = {
 						["DRUID"] = true,
-					},
-				},
-				["spec"] = {
-					["multi"] = {
 					},
 				},
 				["size"] = {
@@ -553,7 +553,6 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0.2,
 			["auto"] = true,
-			["id"] = "Desperate Prayer",
 			["additional_triggers"] = {
 				{
 					["trigger"] = {
@@ -573,6 +572,7 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
+			["id"] = "Desperate Prayer",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -687,7 +687,6 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0.2,
 			["auto"] = true,
-			["id"] = "Spirit Shell",
 			["additional_triggers"] = {
 				{
 					["trigger"] = {
@@ -707,6 +706,7 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
+			["id"] = "Spirit Shell",
 			["yOffset"] = -110,
 			["frameStrata"] = 1,
 			["width"] = 34.75,
@@ -809,7 +809,6 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0.2,
 			["auto"] = true,
-			["id"] = "Inner Focus",
 			["additional_triggers"] = {
 				{
 					["trigger"] = {
@@ -829,6 +828,7 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
+			["id"] = "Inner Focus",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -899,19 +899,19 @@ WeakAurasSaved = {
 				["main"] = {
 					["type"] = "none",
 					["colorR"] = 1,
-					["scalex"] = 1,
 					["duration"] = "2",
-					["y"] = 0,
-					["scaley"] = 1,
+					["scalex"] = 1,
+					["alphaType"] = "alphaPulse",
+					["duration_type"] = "seconds",
 					["alpha"] = 0,
 					["colorB"] = 1,
-					["alphaType"] = "alphaPulse",
-					["colorA"] = 1,
+					["y"] = 0,
+					["x"] = 0,
 					["colorG"] = 1,
 					["alphaFunc"] = "return function(progress, start, delta)\n    local angle = (progress * 2 * math.pi) - (math.pi / 2)\n    return start + (((math.sin(angle) + 1)/2) * delta)\nend\n",
-					["x"] = 0,
+					["colorA"] = 1,
 					["rotate"] = 0,
-					["duration_type"] = "seconds",
+					["scaley"] = 1,
 					["use_alpha"] = false,
 				},
 				["finish"] = {
@@ -940,8 +940,8 @@ WeakAurasSaved = {
 				["event"] = "Health",
 				["unit"] = "player",
 				["custom_hide"] = "timed",
-				["custom"] = "function() return not WA_Rapture_Cooldown end\n",
 				["events"] = "WA_CHECK_RAPTURE",
+				["custom"] = "function() return not WA_Rapture_Cooldown end\n",
 				["subeventSuffix"] = "_CAST_START",
 				["check"] = "event",
 				["subeventPrefix"] = "SPELL",
@@ -984,8 +984,15 @@ WeakAurasSaved = {
 			["icon"] = true,
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0.199999988079071,
-			["auto"] = true,
+			["justify"] = "LEFT",
 			["stickyDuration"] = false,
+			["id"] = "Rapture",
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 122.4348068237305,
+			["disjunctive"] = false,
+			["selfPoint"] = "CENTER",
+			["numTriggers"] = 2,
 			["additional_triggers"] = {
 				{
 					["trigger"] = {
@@ -1003,14 +1010,7 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["width"] = 97.94788360595703,
-			["disjunctive"] = false,
-			["selfPoint"] = "CENTER",
-			["numTriggers"] = 2,
-			["id"] = "Rapture",
-			["justify"] = "LEFT",
+			["auto"] = true,
 			["displayIcon"] = "Interface\\Icons\\Spell_Holy_Rapture",
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
@@ -1110,7 +1110,6 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0.2,
 			["auto"] = true,
-			["id"] = "Halo",
 			["additional_triggers"] = {
 				{
 					["trigger"] = {
@@ -1130,6 +1129,7 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
+			["id"] = "Halo",
 			["untrigger"] = {
 				["spellName"] = 120517,
 			},
@@ -1241,7 +1241,6 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0.2,
 			["auto"] = true,
-			["id"] = "Cascade",
 			["additional_triggers"] = {
 				{
 					["trigger"] = {
@@ -1261,6 +1260,7 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
+			["id"] = "Cascade",
 			["yOffset"] = -110,
 			["frameStrata"] = 1,
 			["width"] = 34.75,
@@ -1363,26 +1363,26 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0.2,
 			["auto"] = true,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "status",
+						["unevent"] = "auto",
+						["use_inverse"] = true,
+						["event"] = "Cooldown Progress (Spell)",
+						["subeventPrefix"] = "SPELL",
+						["use_spellName"] = true,
+						["unit"] = "player",
+						["use_unit"] = true,
+						["subeventSuffix"] = "_CAST_START",
+						["spellName"] = 64901,
+					},
+					["untrigger"] = {
+						["spellName"] = 64901,
+					},
+				}, -- [1]
+			},
 			["id"] = "Hymn of Hope",
-			["additional_triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "status",
-						["unevent"] = "auto",
-						["use_inverse"] = true,
-						["event"] = "Cooldown Progress (Spell)",
-						["subeventPrefix"] = "SPELL",
-						["use_spellName"] = true,
-						["unit"] = "player",
-						["use_unit"] = true,
-						["subeventSuffix"] = "_CAST_START",
-						["spellName"] = 64901,
-					},
-					["untrigger"] = {
-						["spellName"] = 64901,
-					},
-				}, -- [1]
-			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -1393,245 +1393,6 @@ WeakAurasSaved = {
 			["width"] = 34.75,
 			["numTriggers"] = 2,
 			["yOffset"] = -110,
-			["inverse"] = false,
-			["disjunctive"] = true,
-			["stickyDuration"] = false,
-			["selfPoint"] = "CENTER",
-			["stacksPoint"] = "CENTER",
-			["textColor"] = {
-				1, -- [1]
-				0.7294117647058823, -- [2]
-				0, -- [3]
-				1, -- [4]
-			},
-		},
-		["DH 3"] = {
-			["parent"] = "Priest Mainbar",
-			["fontSize"] = 20,
-			["displayStacks"] = "%p",
-			["stacksPoint"] = "CENTER",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["untrigger"] = {
-				["spellName"] = 109964,
-			},
-			["regionType"] = "icon",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["icon"] = true,
-			["numTriggers"] = 1,
-			["desaturate"] = false,
-			["customTextUpdate"] = "update",
-			["id"] = "DH 3",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["width"] = 34.75,
-			["stacksContainment"] = "INSIDE",
-			["zoom"] = 0.2,
-			["auto"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "preset",
-					["preset"] = "slidebottom",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "preset",
-					["preset"] = "slidebottom",
-					["duration_type"] = "seconds",
-				},
-			},
-			["additional_triggers"] = {
-			},
-			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
-			["stickyDuration"] = false,
-			["progressPrecision"] = 0,
-			["font"] = "Arial Black",
-			["inverse"] = false,
-			["trigger"] = {
-				["type"] = "aura",
-				["spellId"] = "109964",
-				["unevent"] = "auto",
-				["spellName"] = 109964,
-				["fullscan"] = true,
-				["event"] = "Cooldown Progress (Spell)",
-				["names"] = {
-					"Spirit Shell", -- [1]
-				},
-				["custom_hide"] = "timed",
-				["use_spellId"] = true,
-				["use_spellName"] = true,
-				["use_unit"] = true,
-				["unit"] = "player",
-				["subeventSuffix"] = "_CAST_START",
-				["subeventPrefix"] = "SPELL",
-				["debuffType"] = "HELPFUL",
-			},
-			["height"] = 34.75,
-			["xOffset"] = 112,
-			["load"] = {
-				["use_name"] = false,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["name"] = "Affinity",
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-						["DRUID"] = true,
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["size"] = {
-					["multi"] = {
-						["party"] = true,
-						["ten"] = true,
-						["arena"] = true,
-						["twentyfive"] = true,
-						["pvp"] = true,
-					},
-				},
-			},
-			["textColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-		},
-		["Arcane torrent"] = {
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["untrigger"] = {
-				["spellName"] = 28730,
-			},
-			["anchorPoint"] = "CENTER",
-			["customTextUpdate"] = "update",
-			["icon"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "preset",
-					["preset"] = "slidebottom",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "preset",
-					["preset"] = "slidebottom",
-					["duration_type"] = "seconds",
-				},
-			},
-			["trigger"] = {
-				["type"] = "status",
-				["unevent"] = "auto",
-				["event"] = "Cooldown Progress (Spell)",
-				["use_unit"] = true,
-				["spellName"] = 28730,
-				["use_spellName"] = true,
-				["custom_hide"] = "timed",
-				["unit"] = "player",
-				["subeventSuffix"] = "_CAST_START",
-				["subeventPrefix"] = "SPELL",
-				["names"] = {
-				},
-				["debuffType"] = "HELPFUL",
-			},
-			["desaturate"] = false,
-			["progressPrecision"] = 0,
-			["font"] = "Arial Black",
-			["height"] = 34.75,
-			["load"] = {
-				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["name"] = "Affinity",
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-						["DRUID"] = true,
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["use_name"] = false,
-				["size"] = {
-					["multi"] = {
-						["party"] = true,
-						["ten"] = true,
-						["arena"] = true,
-						["twentyfive"] = true,
-						["pvp"] = true,
-					},
-				},
-			},
-			["fontSize"] = 20,
-			["displayStacks"] = "%s",
-			["regionType"] = "icon",
-			["parent"] = "Priest Mainbar",
-			["cooldown"] = true,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["stacksContainment"] = "INSIDE",
-			["zoom"] = 0.2,
-			["auto"] = true,
-			["id"] = "Arcane torrent",
-			["additional_triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "status",
-						["unevent"] = "auto",
-						["use_inverse"] = true,
-						["event"] = "Cooldown Progress (Spell)",
-						["subeventPrefix"] = "SPELL",
-						["use_spellName"] = true,
-						["unit"] = "player",
-						["use_unit"] = true,
-						["subeventSuffix"] = "_CAST_START",
-						["spellName"] = 28730,
-					},
-					["untrigger"] = {
-						["spellName"] = 28730,
-					},
-				}, -- [1]
-			},
-			["yOffset"] = -110,
-			["frameStrata"] = 1,
-			["width"] = 34.75,
-			["numTriggers"] = 2,
-			["xOffset"] = -74,
 			["inverse"] = false,
 			["disjunctive"] = true,
 			["stickyDuration"] = false,
@@ -1731,7 +1492,6 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0.2,
 			["auto"] = true,
-			["id"] = "DS",
 			["additional_triggers"] = {
 				{
 					["trigger"] = {
@@ -1751,6 +1511,7 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
+			["id"] = "DS",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -1770,6 +1531,245 @@ WeakAurasSaved = {
 				1, -- [1]
 				0.7294117647058823, -- [2]
 				0, -- [3]
+				1, -- [4]
+			},
+		},
+		["Arcane torrent"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["untrigger"] = {
+				["spellName"] = 28730,
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["animation"] = {
+				["start"] = {
+					["type"] = "preset",
+					["preset"] = "slidebottom",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "preset",
+					["preset"] = "slidebottom",
+					["duration_type"] = "seconds",
+				},
+			},
+			["trigger"] = {
+				["type"] = "status",
+				["unevent"] = "auto",
+				["event"] = "Cooldown Progress (Spell)",
+				["use_unit"] = true,
+				["spellName"] = 28730,
+				["use_spellName"] = true,
+				["custom_hide"] = "timed",
+				["unit"] = "player",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+				["names"] = {
+				},
+				["debuffType"] = "HELPFUL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["font"] = "Arial Black",
+			["height"] = 34.75,
+			["load"] = {
+				["use_class"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["name"] = "Affinity",
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+						["DRUID"] = true,
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_name"] = false,
+				["size"] = {
+					["multi"] = {
+						["party"] = true,
+						["ten"] = true,
+						["arena"] = true,
+						["twentyfive"] = true,
+						["pvp"] = true,
+					},
+				},
+			},
+			["fontSize"] = 20,
+			["displayStacks"] = "%s",
+			["regionType"] = "icon",
+			["parent"] = "Priest Mainbar",
+			["cooldown"] = true,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0.2,
+			["auto"] = true,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "status",
+						["unevent"] = "auto",
+						["use_inverse"] = true,
+						["event"] = "Cooldown Progress (Spell)",
+						["subeventPrefix"] = "SPELL",
+						["use_spellName"] = true,
+						["unit"] = "player",
+						["use_unit"] = true,
+						["subeventSuffix"] = "_CAST_START",
+						["spellName"] = 28730,
+					},
+					["untrigger"] = {
+						["spellName"] = 28730,
+					},
+				}, -- [1]
+			},
+			["id"] = "Arcane torrent",
+			["yOffset"] = -110,
+			["frameStrata"] = 1,
+			["width"] = 34.75,
+			["numTriggers"] = 2,
+			["xOffset"] = -74,
+			["inverse"] = false,
+			["disjunctive"] = true,
+			["stickyDuration"] = false,
+			["selfPoint"] = "CENTER",
+			["stacksPoint"] = "CENTER",
+			["textColor"] = {
+				1, -- [1]
+				0.7294117647058823, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+		},
+		["DH 3"] = {
+			["parent"] = "Priest Mainbar",
+			["fontSize"] = 20,
+			["displayStacks"] = "%p",
+			["stacksPoint"] = "CENTER",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 0,
+			["regionType"] = "icon",
+			["untrigger"] = {
+				["spellName"] = 109964,
+			},
+			["anchorPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["numTriggers"] = 1,
+			["stickyDuration"] = false,
+			["customTextUpdate"] = "update",
+			["id"] = "DH 3",
+			["icon"] = true,
+			["desaturate"] = false,
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0.2,
+			["auto"] = true,
+			["animation"] = {
+				["start"] = {
+					["type"] = "preset",
+					["preset"] = "slidebottom",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "preset",
+					["preset"] = "slidebottom",
+					["duration_type"] = "seconds",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["spellId"] = "109964",
+				["unevent"] = "auto",
+				["spellName"] = 109964,
+				["fullscan"] = true,
+				["event"] = "Cooldown Progress (Spell)",
+				["subeventPrefix"] = "SPELL",
+				["custom_hide"] = "timed",
+				["use_spellId"] = true,
+				["use_spellName"] = true,
+				["use_unit"] = true,
+				["unit"] = "player",
+				["subeventSuffix"] = "_CAST_START",
+				["names"] = {
+					"Spirit Shell", -- [1]
+				},
+				["debuffType"] = "HELPFUL",
+			},
+			["selfPoint"] = "CENTER",
+			["frameStrata"] = 1,
+			["width"] = 34.75,
+			["progressPrecision"] = 0,
+			["font"] = "Arial Black",
+			["inverse"] = false,
+			["additional_triggers"] = {
+			},
+			["height"] = 34.75,
+			["xOffset"] = 112,
+			["load"] = {
+				["use_name"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["name"] = "Affinity",
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+						["DRUID"] = true,
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["size"] = {
+					["multi"] = {
+						["party"] = true,
+						["ten"] = true,
+						["arena"] = true,
+						["twentyfive"] = true,
+						["pvp"] = true,
+					},
+				},
+			},
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
 				1, -- [4]
 			},
 		},
@@ -2076,7 +2076,6 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0.2,
 			["auto"] = true,
-			["id"] = "Shadowfiend",
 			["additional_triggers"] = {
 				{
 					["trigger"] = {
@@ -2096,6 +2095,7 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
+			["id"] = "Shadowfiend",
 			["yOffset"] = -110,
 			["frameStrata"] = 1,
 			["width"] = 34.75,
@@ -2138,7 +2138,7 @@ WeakAurasSaved = {
 				["unevent"] = "timed",
 				["duration"] = "12",
 				["event"] = "Combat Log",
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["type"] = "event",
 				["use_spellName"] = true,
 				["custom_hide"] = "timed",
@@ -2146,7 +2146,7 @@ WeakAurasSaved = {
 				["unit"] = "player",
 				["names"] = {
 				},
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["debuffType"] = "HELPFUL",
 			},
 			["text"] = true,
@@ -2212,27 +2212,27 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
+			["borderSize"] = 10,
+			["stacksFont"] = "Arial Narrow",
+			["border"] = true,
+			["borderEdge"] = "5",
+			["regionType"] = "aurabar",
 			["stacks"] = true,
+			["alpha"] = 1,
+			["icon_side"] = "RIGHT",
 			["stacksColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["border"] = true,
-			["borderEdge"] = "5",
-			["regionType"] = "aurabar",
-			["borderSize"] = 10,
-			["alpha"] = 1,
-			["icon_side"] = "RIGHT",
-			["borderOffset"] = 2,
 			["id"] = "Rapture CD",
-			["displayTextRight"] = "%p",
+			["timerSize"] = 12,
 			["texture"] = "Polished Wood",
 			["textFont"] = "Arial Black",
-			["stacksFont"] = "Arial Narrow",
-			["timerSize"] = 12,
+			["borderOffset"] = 2,
 			["auto"] = true,
+			["displayTextRight"] = "%p",
 			["additional_triggers"] = {
 			},
 			["timerFont"] = "Arial Black",
@@ -2477,7 +2477,6 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0.2,
 			["auto"] = true,
-			["id"] = "Pain Sup",
 			["additional_triggers"] = {
 				{
 					["trigger"] = {
@@ -2497,6 +2496,7 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
+			["id"] = "Pain Sup",
 			["untrigger"] = {
 				["spellName"] = 33206,
 			},
