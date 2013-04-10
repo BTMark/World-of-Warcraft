@@ -2,7 +2,7 @@
 OQ_toon = {
 	["ok2gc"] = 1,
 	["tab3_notice"] = 1364088215,
-	["marquee_y"] = 1.8255615234375,
+	["marquee_y"] = 329.4775390625,
 	["shout_caps"] = 1,
 	["who_popped_lust"] = 1,
 	["shout_ragequits"] = 1,
@@ -12,7 +12,7 @@ OQ_toon = {
 	["my_toons"] = {
 	},
 	["player_role"] = 1,
-	["last_tm"] = 1365610873,
+	["last_tm"] = 1365617981,
 	["disabled"] = true,
 	["wins"] = 2,
 	["losses"] = 5,
@@ -26,5 +26,5 @@ OQ_toon = {
 	},
 	["waitlist"] = {
 	},
-	["marquee_x"] = 351.8045043945313,
+	["marquee_x"] = 1741.717407226563,
 }

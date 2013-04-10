@@ -87,24 +87,6 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [2]
 				{
-					["spell"] = "Penance",
-					["key"] = "BUTTON3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = "Interface\\Icons\\Spell_Holy_Penance",
-					["type"] = "spell",
-				}, -- [3]
-				{
-					["spell"] = "Prayer of Mending",
-					["key"] = "SHIFT-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfMendingtga",
-					["type"] = "spell",
-				}, -- [4]
-				{
 					["spell"] = "Purify",
 					["key"] = "Q",
 					["sets"] = {
@@ -112,7 +94,7 @@ CliqueDB3 = {
 					},
 					["icon"] = "Interface\\Icons\\Spell_Holy_DispelMagic",
 					["type"] = "spell",
-				}, -- [5]
+				}, -- [3]
 				{
 					["spell"] = "Fear Ward",
 					["key"] = "SHIFT-BUTTON3",
@@ -120,6 +102,24 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["icon"] = "Interface\\Icons\\Spell_Holy_Excorcism",
+					["type"] = "spell",
+				}, -- [4]
+				{
+					["spell"] = "Penance",
+					["key"] = "BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = "Interface\\Icons\\Spell_Holy_Penance",
+					["type"] = "spell",
+				}, -- [5]
+				{
+					["spell"] = "Prayer of Mending",
+					["key"] = "SHIFT-BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfMendingtga",
 					["type"] = "spell",
 				}, -- [6]
 				{
@@ -132,12 +132,12 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [7]
 				{
-					["spell"] = "Pain Suppression",
-					["key"] = "F",
+					["spell"] = "Binding Heal",
+					["key"] = "SHIFT-BUTTON1",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = "Interface\\Icons\\Spell_Holy_PainSupression",
+					["icon"] = "Interface\\Icons\\Spell_Holy_BlindingHeal",
 					["type"] = "spell",
 				}, -- [8]
 				{
@@ -150,30 +150,30 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [9]
 				{
-					["spell"] = "Spirit Shell",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = "Interface\\Icons\\ability_shaman_astralshift",
-					["type"] = "spell",
-				}, -- [10]
-				{
-					["spell"] = "Binding Heal",
-					["key"] = "SHIFT-BUTTON1",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = "Interface\\Icons\\Spell_Holy_BlindingHeal",
-					["type"] = "spell",
-				}, -- [11]
-				{
 					["spell"] = "Leap of Faith",
 					["key"] = "SHIFT-MOUSEWHEELDOWN",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = "INTERFACE\\ICONS\\priest_spell_leapoffaith_a",
+					["type"] = "spell",
+				}, -- [10]
+				{
+					["spell"] = "Pain Suppression",
+					["key"] = "F",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = "Interface\\Icons\\Spell_Holy_PainSupression",
+					["type"] = "spell",
+				}, -- [11]
+				{
+					["spell"] = "Spirit Shell",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = "Interface\\Icons\\ability_shaman_astralshift",
 					["type"] = "spell",
 				}, -- [12]
 				{

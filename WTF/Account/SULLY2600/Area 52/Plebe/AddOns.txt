@@ -15,3 +15,7 @@ PitBull4_Runes: enabled
 PitBull4_SoulShards: disabled
 PitBull4_Totems: disabled
 PitBull4_VoiceIcon: disabled
+Forte_Summon: disabled
+Forte_Soulstone: disabled
+Forte_Healthstone: disabled
+Forte_Talent: enabled

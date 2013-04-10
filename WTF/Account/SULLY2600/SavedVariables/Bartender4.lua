@@ -129,9 +129,9 @@ Bartender4DB = {
 							["hidemacrotext"] = true,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 165.6206508718879,
-								["x"] = -185,
-								["point"] = "BOTTOM",
+								["y"] = -264.2999526860731,
+								["x"] = -185.000191289706,
+								["point"] = "TOP",
 								["scale"] = 0.8899999856948853,
 							},
 							["padding"] = 0,

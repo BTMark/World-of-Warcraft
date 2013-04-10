@@ -10,9 +10,9 @@ OQ_data = {
 		["tears"] = 14,
 		["avg_hks"] = 0,
 		["bg_end"] = 0,
+		["bg_start"] = 1365308529,
 		["avg_honor"] = 0,
 		["total_tears"] = 14,
-		["bg_start"] = 1365308529,
 		["avg_down_tm"] = 0,
 		["nWins"] = 0,
 		["avg_deaths"] = 0,
@@ -39,6 +39,14 @@ OQ_data = {
 		["start_round_tm"] = 1365490800,
 	},
 	["btag_submitted"] = 1365632074,
+	["ok2submit_tag"] = 1,
+	["btag_submittal_tm"] = 1365956074,
+	["autoaccept_mesh_request"] = 1,
+	["announce_spy"] = 1,
+	["realid"] = "BTMark#1285",
+	["banned"] = {
+	},
+	["show_premade_ads"] = 1,
 	["btag_cache"] = {
 		["Syiax#1168"] = {
 			["tm"] = 1365631010,
@@ -95,14 +103,6 @@ OQ_data = {
 			["tm"] = 1365634372,
 		},
 	},
-	["btag_submittal_tm"] = 1365956074,
-	["autoaccept_mesh_request"] = 1,
-	["announce_spy"] = 1,
-	["realid"] = "BTMark#1285",
-	["banned"] = {
-	},
-	["show_premade_ads"] = 1,
-	["ok2submit_tag"] = 1,
 	["log"] = {
 	},
 }
