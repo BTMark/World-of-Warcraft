@@ -15,8 +15,8 @@ Bartender4DB = {
 								["point"] = "TOP",
 								["scale"] = 0.89,
 							},
-							["hidemacrotext"] = true,
 							["padding"] = 0,
+							["hidemacrotext"] = true,
 							["visibility"] = {
 								["always"] = false,
 							},
@@ -51,12 +51,12 @@ Bartender4DB = {
 								["point"] = "LEFT",
 								["scale"] = 0.8899999856948853,
 							},
-							["hidemacrotext"] = true,
 							["padding"] = 0,
+							["hidemacrotext"] = true,
 							["visibility"] = {
 								["combat"] = true,
-								["always"] = false,
 								["possess"] = true,
+								["always"] = false,
 								["vehicle"] = true,
 								["overridebar"] = false,
 							},
@@ -126,7 +126,7 @@ Bartender4DB = {
 						{
 							["hideequipped"] = true,
 							["enabled"] = true,
-							["hidemacrotext"] = true,
+							["padding"] = 0,
 							["version"] = 3,
 							["position"] = {
 								["y"] = -264.2999526860731,
@@ -134,7 +134,7 @@ Bartender4DB = {
 								["point"] = "TOP",
 								["scale"] = 0.8899999856948853,
 							},
-							["padding"] = 0,
+							["hidemacrotext"] = true,
 							["states"] = {
 								["enabled"] = true,
 								["possess"] = true,
@@ -145,11 +145,11 @@ Bartender4DB = {
 				["Mooselini - Area 52"] = {
 					["actionbars"] = {
 						{
+							["version"] = 3,
+							["padding"] = 0,
 							["visibility"] = {
 								["always"] = false,
 							},
-							["padding"] = 0,
-							["version"] = 3,
 							["position"] = {
 								["y"] = -200.3,
 								["x"] = -185,
@@ -272,19 +272,19 @@ Bartender4DB = {
 			["profiles"] = {
 				["DiscPVP"] = {
 					["enabled"] = false,
-					["fadeout"] = true,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 34.42500096559525,
 						["x"] = -4.674992835521493,
 						["point"] = "BOTTOMLEFT",
 						["scale"] = 0.8500000238418579,
 					},
-					["version"] = 3,
+					["fadeout"] = true,
 				},
 				["Mooselini - Area 52"] = {
 					["enabled"] = false,
-					["fadeout"] = true,
 					["version"] = 3,
+					["fadeout"] = true,
 					["position"] = {
 						["y"] = 34.42500096559525,
 						["x"] = -4.674992835521493,
@@ -340,6 +340,28 @@ Bartender4DB = {
 				},
 			},
 		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["DiscPVP"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.49993896484375,
+						["x"] = 99.49993896484375,
+						["point"] = "CENTER",
+					},
+				},
+				["Mooselini - Area 52"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.49993896484375,
+						["x"] = 99.49993896484375,
+						["point"] = "CENTER",
+					},
+				},
+			},
+		},
 		["StanceBar"] = {
 			["profiles"] = {
 				["DiscPVP"] = {
@@ -360,28 +382,6 @@ Bartender4DB = {
 						["x"] = -460,
 						["point"] = "BOTTOM",
 						["scale"] = 1,
-					},
-				},
-			},
-		},
-		["Vehicle"] = {
-			["profiles"] = {
-				["DiscPVP"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.49993896484375,
-						["x"] = 99.49993896484375,
-						["point"] = "CENTER",
-					},
-				},
-				["Mooselini - Area 52"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.49993896484375,
-						["x"] = 99.49993896484375,
-						["point"] = "CENTER",
 					},
 				},
 			},

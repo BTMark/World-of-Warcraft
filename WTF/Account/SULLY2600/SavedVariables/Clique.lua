@@ -5,20 +5,39 @@ CliqueDB3 = {
 		["Mooselini - Area 52"] = {
 			["sec_profileKey"] = "Mooselini - Area 52",
 			["fastooc"] = false,
-			["alerthidden"] = true,
+			["specswap"] = false,
 			["downclick"] = false,
 			["pri_profileKey"] = "Mooselini - Area 52",
-			["specswap"] = false,
+			["alerthidden"] = true,
 		},
 	},
 	["profileKeys"] = {
 		["Plebe - Area 52"] = "Plebe - Area 52",
-		["Plebeian - Area 52"] = "Plebeian - Area 52",
-		["Mooselini - Area 52"] = "Mooselini - Area 52",
 		["Esoom - Garona"] = "Esoom - Garona",
+		["Mooselini - Area 52"] = "Mooselini - Area 52",
+		["Plebeian - Area 52"] = "Plebeian - Area 52",
 	},
 	["profiles"] = {
 		["Plebe - Area 52"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Esoom - Garona"] = {
 			["bindings"] = {
 				{
 					["sets"] = {
@@ -35,35 +54,6 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 				}, -- [2]
-			},
-		},
-		["Plebeian - Area 52"] = {
-			["bindings"] = {
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [1]
-				{
-					["spell"] = "Healing Surge",
-					["key"] = "BUTTON1",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = "Interface\\Icons\\Spell_Nature_HealingWay",
-					["type"] = "spell",
-				}, -- [2]
-				{
-					["spell"] = "Healing Rain",
-					["key"] = "BUTTON3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = "Interface\\Icons\\Spell_Nature_GiftoftheWaterSpirit",
-					["type"] = "spell",
-				}, -- [3]
 			},
 		},
 		["Mooselini - Area 52"] = {
@@ -187,23 +177,33 @@ CliqueDB3 = {
 				}, -- [13]
 			},
 		},
-		["Esoom - Garona"] = {
+		["Plebeian - Area 52"] = {
 			["bindings"] = {
-				{
-					["type"] = "target",
-					["sets"] = {
-						["default"] = true,
-					},
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
 				{
 					["type"] = "menu",
 					["key"] = "BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
+				}, -- [1]
+				{
+					["spell"] = "Healing Surge",
+					["key"] = "BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = "Interface\\Icons\\Spell_Nature_HealingWay",
+					["type"] = "spell",
 				}, -- [2]
+				{
+					["spell"] = "Healing Rain",
+					["key"] = "BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = "Interface\\Icons\\Spell_Nature_GiftoftheWaterSpirit",
+					["type"] = "spell",
+				}, -- [3]
 			},
 		},
 	},

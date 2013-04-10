@@ -23,16 +23,16 @@ SexyMap2DB = {
 				["MiniMapInstanceDifficulty"] = "never",
 				["MiniMapMailFrame"] = "always",
 				["MiniMapChallengeMode"] = "never",
-				["MinimapZoomIn"] = "never",
+				["MiniMapWorldMapButton"] = "never",
 				["TimeManagerClockButton"] = "always",
 				["MinimapZoomOut"] = "never",
 				["LibDBIcon10_Bartender4"] = "never",
-				["DBMMinimapButton"] = "never",
 				["QueueStatusMinimapButton"] = "always",
+				["DBMMinimapButton"] = "never",
 				["MinimapZoneTextButton"] = "always",
 				["LibDBIcon10_Grid"] = "never",
 				["GuildInstanceDifficulty"] = "always",
-				["MiniMapWorldMapButton"] = "never",
+				["MinimapZoomIn"] = "never",
 			},
 			["dragPositions"] = {
 				["LibDBIcon10_Bartender4"] = 130.1009539919875,
@@ -44,30 +44,30 @@ SexyMap2DB = {
 		},
 		["hudmap"] = {
 			["scale"] = 1.4,
-			["textColor"] = {
-				["a"] = 1,
-				["b"] = 0.5,
-				["g"] = 1,
-				["r"] = 0.5,
+			["hudColor"] = {
 			},
 			["alpha"] = 0.7,
-			["hudColor"] = {
+			["textColor"] = {
+				["a"] = 1,
+				["r"] = 0.5,
+				["g"] = 1,
+				["b"] = 0.5,
 			},
 		},
 		["zonetext"] = {
 			["bgColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["fontColor"] = {
 			},
 			["borderColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["xOffset"] = 0,
 			["yOffset"] = 0,
@@ -75,17 +75,17 @@ SexyMap2DB = {
 		["clock"] = {
 			["bgColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["fontColor"] = {
 			},
 			["borderColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["xOffset"] = 0,
 			["yOffset"] = 0,
@@ -97,9 +97,9 @@ SexyMap2DB = {
 			["backdrop"] = {
 				["show"] = true,
 				["textureColor"] = {
-					["r"] = 0,
-					["g"] = 0,
 					["b"] = 0,
+					["g"] = 0,
+					["r"] = 0,
 				},
 				["settings"] = {
 					["bgFile"] = "Interface\\Tooltips\\UI-Tooltip-Background",
@@ -119,19 +119,19 @@ SexyMap2DB = {
 			},
 			["hideBlizzard"] = true,
 		},
-		["core"] = {
-			["clamp"] = true,
-			["lock"] = true,
-			["northTag"] = true,
-			["shape"] = "Interface\\BUTTONS\\WHITE8X8",
-			["autoZoom"] = 5,
-			["rightClickToConfig"] = true,
-		},
 		["movers"] = {
 			["enabled"] = false,
 			["framePositions"] = {
 			},
 			["lock"] = false,
+		},
+		["core"] = {
+			["clamp"] = true,
+			["lock"] = true,
+			["rightClickToConfig"] = true,
+			["autoZoom"] = 5,
+			["shape"] = "Interface\\BUTTONS\\WHITE8X8",
+			["northTag"] = true,
 		},
 	},
 	["presets"] = {

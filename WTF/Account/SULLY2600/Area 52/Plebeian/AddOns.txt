@@ -19,3 +19,4 @@ Forte_Summon: disabled
 Forte_Soulstone: disabled
 Forte_Healthstone: disabled
 Forte_Talent: enabled
+PitBull4_ShadowOrbs: disabled
