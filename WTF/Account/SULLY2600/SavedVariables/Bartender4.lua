@@ -9,14 +9,14 @@ Bartender4DB = {
 							["hideequipped"] = true,
 							["fadeout"] = true,
 							["version"] = 3,
-							["padding"] = 0,
 							["position"] = {
+								["y"] = -200.3,
+								["x"] = -185,
 								["point"] = "TOP",
 								["scale"] = 0.89,
-								["x"] = -185,
-								["y"] = -200.3,
 							},
 							["hidemacrotext"] = true,
+							["padding"] = 0,
 							["visibility"] = {
 								["always"] = false,
 							},
@@ -27,14 +27,14 @@ Bartender4DB = {
 						}, -- [1]
 						{
 							["hideequipped"] = true,
+							["padding"] = 0,
 							["version"] = 3,
 							["position"] = {
+								["y"] = 241.4350411508058,
+								["x"] = -185.0000826471296,
 								["point"] = "CENTER",
 								["scale"] = 0.8899999856948853,
-								["x"] = -185.0000826471296,
-								["y"] = 241.4350411508058,
 							},
-							["padding"] = 0,
 							["hidemacrotext"] = true,
 							["visibility"] = {
 								["always"] = true,
@@ -43,21 +43,21 @@ Bartender4DB = {
 						{
 							["rows"] = 6,
 							["hideequipped"] = true,
-							["version"] = 3,
 							["fadeout"] = true,
+							["version"] = 3,
 							["position"] = {
+								["y"] = -54.77188157844648,
+								["x"] = -3.559998881816881,
 								["point"] = "LEFT",
 								["scale"] = 0.8899999856948853,
-								["x"] = -3.559998881816881,
-								["y"] = -54.77188157844648,
 							},
-							["padding"] = 0,
 							["hidemacrotext"] = true,
+							["padding"] = 0,
 							["visibility"] = {
-								["vehicle"] = true,
 								["combat"] = true,
-								["possess"] = true,
 								["always"] = false,
+								["possess"] = true,
+								["vehicle"] = true,
 								["overridebar"] = false,
 							},
 							["states"] = {
@@ -70,20 +70,20 @@ Bartender4DB = {
 							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
-								["point"] = "RIGHT",
-								["x"] = -43.5003662109375,
 								["y"] = 232.8513488769531,
+								["x"] = -43.5003662109375,
+								["point"] = "RIGHT",
 							},
 							["padding"] = 5,
 						}, -- [4]
 						{
-							["version"] = 3,
 							["fadeout"] = true,
+							["version"] = 3,
 							["position"] = {
+								["y"] = -232.6,
+								["x"] = -185,
 								["point"] = "TOP",
 								["scale"] = 0.89,
-								["x"] = -185,
-								["y"] = -232.6,
 							},
 							["padding"] = 0,
 							["visibility"] = {
@@ -100,9 +100,9 @@ Bartender4DB = {
 							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
-								["point"] = "BOTTOM",
-								["x"] = -254,
 								["y"] = 83,
+								["x"] = -254,
+								["point"] = "BOTTOM",
 							},
 							["padding"] = 6,
 						}, -- [6]
@@ -113,28 +113,28 @@ Bartender4DB = {
 						{
 							["version"] = 3,
 							["position"] = {
+								["y"] = 51.56671142578125,
 								["x"] = -391.6857299804688,
 								["point"] = "CENTER",
-								["y"] = 51.56671142578125,
 							},
 							["visibility"] = {
 								["combat"] = true,
-								["vehicle"] = true,
 								["possess"] = true,
+								["vehicle"] = true,
 							},
 						}, -- [9]
 						{
 							["hideequipped"] = true,
 							["enabled"] = true,
+							["hidemacrotext"] = true,
 							["version"] = 3,
 							["position"] = {
+								["y"] = 165.6206508718879,
+								["x"] = -185,
 								["point"] = "BOTTOM",
 								["scale"] = 0.8899999856948853,
-								["x"] = -185,
-								["y"] = 165.6206508718879,
 							},
 							["padding"] = 0,
-							["hidemacrotext"] = true,
 							["states"] = {
 								["enabled"] = true,
 								["possess"] = true,
@@ -145,6 +145,9 @@ Bartender4DB = {
 				["Mooselini - Area 52"] = {
 					["actionbars"] = {
 						{
+							["visibility"] = {
+								["always"] = false,
+							},
 							["padding"] = 0,
 							["version"] = 3,
 							["position"] = {
@@ -153,13 +156,9 @@ Bartender4DB = {
 								["point"] = "TOP",
 								["scale"] = 0.89,
 							},
-							["visibility"] = {
-								["always"] = false,
-							},
 						}, -- [1]
 						{
 							["hideequipped"] = true,
-							["padding"] = 0,
 							["version"] = 3,
 							["position"] = {
 								["y"] = -232.3,
@@ -167,14 +166,14 @@ Bartender4DB = {
 								["point"] = "TOP",
 								["scale"] = 0.89,
 							},
-							["hidemacrotext"] = true,
+							["padding"] = 0,
 							["visibility"] = {
 								["always"] = false,
 							},
+							["hidemacrotext"] = true,
 						}, -- [2]
 						{
 							["hideequipped"] = true,
-							["padding"] = 0,
 							["version"] = 3,
 							["position"] = {
 								["y"] = -264.3,
@@ -182,13 +181,13 @@ Bartender4DB = {
 								["point"] = "TOP",
 								["scale"] = 0.89,
 							},
-							["hidemacrotext"] = true,
+							["padding"] = 0,
 							["visibility"] = {
 								["always"] = false,
 							},
+							["hidemacrotext"] = true,
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
@@ -196,27 +195,28 @@ Bartender4DB = {
 								["x"] = -43.5003662109375,
 								["point"] = "RIGHT",
 							},
+							["rows"] = 12,
 							["padding"] = 5,
 						}, -- [4]
 						{
 							["enabled"] = false,
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 126.0032501220703,
 								["x"] = -253.5000915527344,
 								["point"] = "BOTTOM",
 							},
-							["padding"] = 6,
 						}, -- [5]
 						{
 							["enabled"] = false,
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 83,
 								["x"] = -254,
 								["point"] = "BOTTOM",
 							},
-							["padding"] = 6,
 						}, -- [6]
 						{
 						}, -- [7]
@@ -224,9 +224,8 @@ Bartender4DB = {
 						}, -- [8]
 						nil, -- [9]
 						{
-							["hideequipped"] = true,
 							["enabled"] = true,
-							["padding"] = 0,
+							["hideequipped"] = true,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 165.6206508718879,
@@ -234,6 +233,7 @@ Bartender4DB = {
 								["point"] = "BOTTOM",
 								["scale"] = 0.8899999856948853,
 							},
+							["padding"] = 0,
 							["hidemacrotext"] = true,
 							["states"] = {
 								["enabled"] = true,
@@ -250,21 +250,21 @@ Bartender4DB = {
 			["profiles"] = {
 				["DiscPVP"] = {
 					["enabled"] = false,
-					["version"] = 3,
 					["position"] = {
-						["point"] = "BOTTOM",
-						["x"] = 10.5780029296875,
 						["y"] = 227.6305847167969,
+						["x"] = 10.5780029296875,
+						["point"] = "BOTTOM",
 					},
+					["version"] = 3,
 				},
 				["Mooselini - Area 52"] = {
 					["enabled"] = false,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 227.6305847167969,
 						["x"] = 10.5780029296875,
 						["point"] = "BOTTOM",
 					},
-					["version"] = 3,
 				},
 			},
 		},
@@ -272,17 +272,18 @@ Bartender4DB = {
 			["profiles"] = {
 				["DiscPVP"] = {
 					["enabled"] = false,
-					["version"] = 3,
+					["fadeout"] = true,
 					["position"] = {
+						["y"] = 34.42500096559525,
+						["x"] = -4.674992835521493,
 						["point"] = "BOTTOMLEFT",
 						["scale"] = 0.8500000238418579,
-						["x"] = -4.674992835521493,
-						["y"] = 34.42500096559525,
 					},
-					["fadeout"] = true,
+					["version"] = 3,
 				},
 				["Mooselini - Area 52"] = {
 					["enabled"] = false,
+					["fadeout"] = true,
 					["version"] = 3,
 					["position"] = {
 						["y"] = 34.42500096559525,
@@ -290,7 +291,6 @@ Bartender4DB = {
 						["point"] = "BOTTOMLEFT",
 						["scale"] = 0.8500000238418579,
 					},
-					["fadeout"] = true,
 				},
 			},
 		},
@@ -299,20 +299,20 @@ Bartender4DB = {
 		["BlizzardArt"] = {
 			["profiles"] = {
 				["DiscPVP"] = {
-					["version"] = 3,
 					["position"] = {
-						["point"] = "BOTTOM",
-						["x"] = -512,
 						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
 					},
+					["version"] = 3,
 				},
 				["Mooselini - Area 52"] = {
+					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
 						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
-					["version"] = 3,
 				},
 			},
 		},
@@ -320,23 +320,47 @@ Bartender4DB = {
 			["profiles"] = {
 				["DiscPVP"] = {
 					["enabled"] = false,
-					["version"] = 3,
 					["onebag"] = true,
 					["position"] = {
-						["point"] = "BOTTOMRIGHT",
-						["x"] = -36.0001220703125,
 						["y"] = 36.00000381469727,
+						["x"] = -36.0001220703125,
+						["point"] = "BOTTOMRIGHT",
 					},
+					["version"] = 3,
 				},
 				["Mooselini - Area 52"] = {
 					["enabled"] = false,
 					["onebag"] = true,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 36.00000381469727,
 						["x"] = -36.0001220703125,
 						["point"] = "BOTTOMRIGHT",
 					},
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["DiscPVP"] = {
+					["enabled"] = false,
+					["position"] = {
+						["y"] = 116,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+					},
 					["version"] = 3,
+				},
+				["Mooselini - Area 52"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 116,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+					},
 				},
 			},
 		},
@@ -346,9 +370,9 @@ Bartender4DB = {
 					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
-						["point"] = "CENTER",
-						["x"] = 99.49993896484375,
 						["y"] = 47.49993896484375,
+						["x"] = 99.49993896484375,
+						["point"] = "CENTER",
 					},
 				},
 				["Mooselini - Area 52"] = {
@@ -359,30 +383,6 @@ Bartender4DB = {
 						["x"] = 99.49993896484375,
 						["point"] = "CENTER",
 					},
-				},
-			},
-		},
-		["StanceBar"] = {
-			["profiles"] = {
-				["DiscPVP"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-						["x"] = -460,
-						["y"] = 116,
-					},
-				},
-				["Mooselini - Area 52"] = {
-					["enabled"] = false,
-					["position"] = {
-						["y"] = 116,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-					["version"] = 3,
 				},
 			},
 		},
@@ -392,9 +392,9 @@ Bartender4DB = {
 					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
-						["point"] = "BOTTOM",
-						["x"] = -121.4219360351563,
 						["y"] = 169.6305999755859,
+						["x"] = -121.4219360351563,
+						["point"] = "BOTTOM",
 					},
 				},
 				["Mooselini - Area 52"] = {
@@ -416,16 +416,16 @@ Bartender4DB = {
 	},
 	["profiles"] = {
 		["DiscPVP"] = {
+			["blizzardVehicle"] = true,
+			["focuscastmodifier"] = false,
 			["minimapIcon"] = {
 				["hide"] = true,
 			},
-			["blizzardVehicle"] = true,
-			["focuscastmodifier"] = false,
 			["outofrange"] = "hotkey",
 		},
 		["Mooselini - Area 52"] = {
-			["blizzardVehicle"] = true,
 			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
 			["minimapIcon"] = {
 				["hide"] = true,
 			},

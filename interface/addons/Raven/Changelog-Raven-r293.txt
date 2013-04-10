@@ -1,0 +1,66 @@
+------------------------------------------------------------------------
+r293 | tomber | 2013-04-01 04:25:54 +0000 (Mon, 01 Apr 2013) | 2 lines
+Changed paths:
+   M /trunk/Raven_Options/Options.lua
+
+Remove check for validate spell name when adding entries to cooldown whitelists and blacklists. This resolves an issue with adding certain trinkets to the lists (but you do have to be extra careful now to enter spell names correctly).
+Change limits on timeline exponent and switch timing settings to allow slightly larger ranges.
+------------------------------------------------------------------------
+r292 | tomber | 2013-03-28 21:54:02 +0000 (Thu, 28 Mar 2013) | 3 lines
+Changed paths:
+   M /trunk/Bars.lua
+   M /trunk/Localizations/enUS.lua
+   M /trunk/Main.lua
+   M /trunk/Nest.lua
+   M /trunk/Raven_Options/Options.lua
+
+Allow entering specific spell ids (using format #12345) in condition tests for buffs and debuffs. This is useful, for example, when checking specifically for Sacred Shield's long buff.
+
+Allow setting the time between switching the order of overlapping icons when displayed on a timeline.
+------------------------------------------------------------------------
+r291 | tomber | 2013-03-18 20:27:45 +0000 (Mon, 18 Mar 2013) | 2 lines
+Changed paths:
+   M /trunk/Nest.lua
+   M /trunk/Presets/Pets.lua
+   M /trunk/Presets/Priest.lua
+   M /trunk/Presets/Warrior.lua
+
+Fix responsiveness issue with desaturate option for non-player icons.
+Remove Blood Pact and replace with Dark Intent in conditions that check for stamina buff.
+------------------------------------------------------------------------
+r290 | tomber | 2013-03-10 23:31:46 +0000 (Sun, 10 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/Bars.lua
+
+Fix issue with not showing multiple procs of certain weapon enchants (e.g., Dancing Steel). This workaround is as specific as possible to avoid potential problems with other spells. You may see duplicate triggering of start or finish special effects (i.e., flashing, sound effects) for the specific weapon enchants addressed by the workaround.
+------------------------------------------------------------------------
+r289 | tomber | 2013-03-10 01:31:38 +0000 (Sun, 10 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/Profile.lua
+
+Address issue with new spell ids in 5.2 that are higher than 135000.
+------------------------------------------------------------------------
+r288 | tomber | 2013-03-05 05:50:42 +0000 (Tue, 05 Mar 2013) | 2 lines
+Changed paths:
+   M /trunk/Main.lua
+   M /trunk/Raven.toc
+   M /trunk/Raven_Options/Raven_Options.toc
+
+Add stance buffs for monks.
+Update version so up-to-date for 5.2.
+------------------------------------------------------------------------
+r287 | tomber | 2013-02-26 23:05:16 +0000 (Tue, 26 Feb 2013) | 2 lines
+Changed paths:
+   M /trunk/Conditions.lua
+   M /trunk/Presets/Druid.lua
+   M /trunk/Presets/Mage.lua
+   M /trunk/Presets/Monk.lua
+   M /trunk/Presets/Priest.lua
+   M /trunk/Presets/Rogue.lua
+   M /trunk/Presets/Shaman.lua
+   M /trunk/Presets/Warlock.lua
+   M /trunk/Presets/Warrior.lua
+
+Update class presets for 5.2 changes.
+Fix issue with using condition test Spell Ready to check charges less than a specified amount (it didn't handle case with 0 charges left correctly).
+------------------------------------------------------------------------

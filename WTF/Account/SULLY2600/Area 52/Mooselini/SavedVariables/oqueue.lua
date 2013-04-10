@@ -11,8 +11,8 @@ OQ_toon = {
 	["MinimapPos"] = 0,
 	["my_toons"] = {
 	},
-	["player_role"] = 2,
-	["last_tm"] = 1365535618,
+	["player_role"] = 1,
+	["last_tm"] = 1365610873,
 	["disabled"] = true,
 	["wins"] = 2,
 	["losses"] = 5,
