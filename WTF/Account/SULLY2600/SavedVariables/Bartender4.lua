@@ -7,16 +7,15 @@ Bartender4DB = {
 					["actionbars"] = {
 						{
 							["hideequipped"] = true,
-							["fadeout"] = true,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -200.3,
-								["x"] = -185,
-								["point"] = "TOP",
-								["scale"] = 0.89,
+								["y"] = 102.360652117558,
+								["x"] = -245.4336836655166,
+								["point"] = "BOTTOM",
+								["scale"] = 0.8899999856948853,
 							},
-							["padding"] = 0,
 							["hidemacrotext"] = true,
+							["padding"] = 0,
 							["visibility"] = {
 								["always"] = false,
 							},
@@ -30,20 +29,19 @@ Bartender4DB = {
 							["padding"] = 0,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 241.4350411508058,
-								["x"] = -185.0000826471296,
-								["point"] = "CENTER",
+								["y"] = 68.54066624147436,
+								["x"] = -245.4335478622961,
+								["point"] = "BOTTOM",
 								["scale"] = 0.8899999856948853,
 							},
 							["hidemacrotext"] = true,
 							["visibility"] = {
-								["always"] = true,
+								["always"] = false,
 							},
 						}, -- [2]
 						{
 							["rows"] = 6,
 							["hideequipped"] = true,
-							["fadeout"] = true,
 							["version"] = 3,
 							["position"] = {
 								["y"] = -54.77188157844648,
@@ -51,13 +49,13 @@ Bartender4DB = {
 								["point"] = "LEFT",
 								["scale"] = 0.8899999856948853,
 							},
-							["padding"] = 0,
 							["hidemacrotext"] = true,
+							["padding"] = 0,
 							["visibility"] = {
 								["combat"] = true,
-								["overridebar"] = false,
-								["possess"] = true,
 								["vehicle"] = true,
+								["possess"] = true,
+								["overridebar"] = false,
 								["always"] = false,
 							},
 							["states"] = {
@@ -66,24 +64,27 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
-							["enabled"] = false,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 232.8513488769531,
-								["x"] = -43.5003662109375,
-								["point"] = "RIGHT",
-							},
-							["padding"] = 5,
-						}, -- [4]
-						{
+							["rows"] = 3,
 							["fadeout"] = true,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -232.6,
-								["x"] = -185,
-								["point"] = "TOP",
-								["scale"] = 0.89,
+								["y"] = 100.569998383522,
+								["x"] = 158.8131479106887,
+								["point"] = "BOTTOM",
+								["scale"] = 0.8899999856948853,
+							},
+							["padding"] = 0,
+							["visibility"] = {
+								["combat"] = true,
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 36.49000620365132,
+								["x"] = -243.641108315911,
+								["point"] = "BOTTOM",
+								["scale"] = 0.8899999856948853,
 							},
 							["padding"] = 0,
 							["visibility"] = {
@@ -100,9 +101,9 @@ Bartender4DB = {
 							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 83,
-								["x"] = -254,
-								["point"] = "BOTTOM",
+								["y"] = -102.2033386230469,
+								["x"] = 444.009765625,
+								["point"] = "LEFT",
 							},
 							["padding"] = 6,
 						}, -- [6]
@@ -124,17 +125,23 @@ Bartender4DB = {
 							},
 						}, -- [9]
 						{
+							["rows"] = 3,
 							["hideequipped"] = true,
+							["fadeout"] = true,
 							["enabled"] = true,
-							["hidemacrotext"] = true,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -264.2999526860731,
-								["x"] = -185.000191289706,
-								["point"] = "TOP",
+								["y"] = 100.5700323343272,
+								["x"] = -383.9384104432138,
+								["point"] = "BOTTOM",
 								["scale"] = 0.8899999856948853,
 							},
 							["padding"] = 0,
+							["hidemacrotext"] = true,
+							["visibility"] = {
+								["combat"] = true,
+								["always"] = false,
+							},
 							["states"] = {
 								["enabled"] = true,
 								["possess"] = true,
@@ -142,14 +149,80 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
+				["Ohgirl - Garona"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.4999084472656,
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 83,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 83,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
 				["Mooselini - Area 52"] = {
 					["actionbars"] = {
 						{
-							["version"] = 3,
-							["padding"] = 0,
 							["visibility"] = {
 								["always"] = false,
 							},
+							["padding"] = 0,
+							["version"] = 3,
 							["position"] = {
 								["y"] = -200.3,
 								["x"] = -185,
@@ -242,72 +315,6 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Ohgirl - Garona"] = {
-					["actionbars"] = {
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -189.4999084472656,
-								["x"] = -231.5001831054688,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
-							["padding"] = 5,
-							["rows"] = 12,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [3]
-						{
-							["padding"] = 5,
-							["rows"] = 12,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [4]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 83,
-								["x"] = 3,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 83,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						[10] = {
-						},
-					},
-				},
 			},
 		},
 		["LibDualSpec-1.0"] = {
@@ -323,6 +330,14 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
+				["Ohgirl - Garona"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.0000152587891,
+						["x"] = -31.50006103515625,
+						["point"] = "BOTTOM",
+					},
+				},
 				["Mooselini - Area 52"] = {
 					["enabled"] = false,
 					["version"] = 3,
@@ -332,32 +347,12 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Ohgirl - Garona"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.0000152587891,
-						["x"] = -31.50006103515625,
-						["point"] = "BOTTOM",
-					},
-				},
 			},
 		},
 		["MicroMenu"] = {
 			["profiles"] = {
 				["DiscPVP"] = {
 					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 34.42500096559525,
-						["x"] = -4.674992835521493,
-						["point"] = "BOTTOMLEFT",
-						["scale"] = 0.8500000238418579,
-					},
-					["fadeout"] = true,
-				},
-				["Mooselini - Area 52"] = {
-					["enabled"] = false,
-					["version"] = 3,
 					["fadeout"] = true,
 					["position"] = {
 						["y"] = 34.42500096559525,
@@ -365,6 +360,7 @@ Bartender4DB = {
 						["point"] = "BOTTOMLEFT",
 						["scale"] = 0.8500000238418579,
 					},
+					["version"] = 3,
 				},
 				["Ohgirl - Garona"] = {
 					["version"] = 3,
@@ -373,6 +369,17 @@ Bartender4DB = {
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
 						["y"] = 41.75,
+					},
+				},
+				["Mooselini - Area 52"] = {
+					["enabled"] = false,
+					["fadeout"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 34.42500096559525,
+						["x"] = -4.674992835521493,
+						["point"] = "BOTTOMLEFT",
+						["scale"] = 0.8500000238418579,
 					},
 				},
 			},
@@ -389,7 +396,8 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
-				["Mooselini - Area 52"] = {
+				["Ohgirl - Garona"] = {
+					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
@@ -397,8 +405,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Ohgirl - Garona"] = {
-					["enabled"] = true,
+				["Mooselini - Area 52"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
@@ -420,16 +427,6 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
-				["Mooselini - Area 52"] = {
-					["enabled"] = false,
-					["onebag"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 36.00000381469727,
-						["x"] = -36.0001220703125,
-						["point"] = "BOTTOMRIGHT",
-					},
-				},
 				["Ohgirl - Garona"] = {
 					["onebag"] = true,
 					["version"] = 3,
@@ -439,34 +436,14 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-			},
-		},
-		["Vehicle"] = {
-			["profiles"] = {
-				["DiscPVP"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.49993896484375,
-						["x"] = 99.49993896484375,
-						["point"] = "CENTER",
-					},
-				},
 				["Mooselini - Area 52"] = {
 					["enabled"] = false,
+					["onebag"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 47.49993896484375,
-						["x"] = 99.49993896484375,
-						["point"] = "CENTER",
-					},
-				},
-				["Ohgirl - Garona"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.50003051757813,
-						["x"] = 99.5,
-						["point"] = "CENTER",
+						["y"] = 36.00000381469727,
+						["x"] = -36.0001220703125,
+						["point"] = "BOTTOMRIGHT",
 					},
 				},
 			},
@@ -483,6 +460,14 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
+				["Ohgirl - Garona"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99996185302734,
+						["x"] = -82.5,
+						["point"] = "CENTER",
+					},
+				},
 				["Mooselini - Area 52"] = {
 					["enabled"] = false,
 					["version"] = 3,
@@ -493,11 +478,33 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["DiscPVP"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.49993896484375,
+						["x"] = 99.49993896484375,
+						["point"] = "CENTER",
+					},
+				},
 				["Ohgirl - Garona"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -14.99996185302734,
-						["x"] = -82.5,
+						["y"] = 47.50003051757813,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Mooselini - Area 52"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.49993896484375,
+						["x"] = 99.49993896484375,
 						["point"] = "CENTER",
 					},
 				},
@@ -514,6 +521,14 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["Ohgirl - Garona"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 116,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
 				["Mooselini - Area 52"] = {
 					["enabled"] = false,
 					["version"] = 3,
@@ -523,22 +538,14 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Ohgirl - Garona"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 116,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
 			},
 		},
 		["RepBar"] = {
 		},
 	},
 	["profileKeys"] = {
-		["Mooselini - Area 52"] = "DiscPVP",
 		["Ohgirl - Garona"] = "Ohgirl - Garona",
+		["Mooselini - Area 52"] = "DiscPVP",
 	},
 	["profiles"] = {
 		["DiscPVP"] = {
@@ -549,17 +556,17 @@ Bartender4DB = {
 			},
 			["outofrange"] = "hotkey",
 		},
+		["Ohgirl - Garona"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
 		["Mooselini - Area 52"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["minimapIcon"] = {
 				["hide"] = true,
 			},
-			["outofrange"] = "hotkey",
-		},
-		["Ohgirl - Garona"] = {
-			["focuscastmodifier"] = false,
-			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
 	},

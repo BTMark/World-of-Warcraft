@@ -8,12 +8,12 @@ AuroraConfig = {
 	["loot"] = true,
 	["tooltips"] = true,
 	["useCustomColour"] = false,
-	["map"] = true,
 	["customColour"] = {
-		["b"] = 1,
-		["g"] = 1,
 		["r"] = 1,
+		["g"] = 1,
+		["b"] = 1,
 	},
+	["map"] = true,
 	["gradientAlpha"] = {
 		"VERTICAL", -- [1]
 		0, -- [2]

@@ -5,8 +5,8 @@ MasqueDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Mooselini - Area 52"] = "Default",
 		["Ohgirl - Garona"] = "Default",
+		["Mooselini - Area 52"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -20,21 +20,27 @@ MasqueDB = {
 				["Raven_Short Buffs"] = {
 					["Inherit"] = false,
 				},
+				["Bartender4_5"] = {
+					["Inherit"] = false,
+				},
 				["Bartender4_1"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Touchy 64px buffs",
 				},
 				["Bartender4_3"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Touchy 64px buffs",
 				},
 				["Bartender4_2"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Touchy 64px buffs",
 				},
 				["Raven_Important Buffs"] = {
 					["Inherit"] = false,
 				},
 				["Bartender4_10"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Touchy 32px buffs",
+					["SkinID"] = "Touchy 64px buffs",
 				},
 			},
 		},
