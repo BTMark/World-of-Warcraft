@@ -17,7 +17,7 @@ FX_Saved = {
 		["Fathom-Guard Tidalvess"] = 1,
 		["Fathom-Guard Sharkkis"] = 1,
 	},
-	["Update"] = 257613.349,
+	["Update"] = 264030.348,
 	["Profiles"] = {
 		["Active"] = 1,
 		["Characters"] = {
@@ -237,7 +237,7 @@ FX_Saved = {
 								0, -- [3]
 								[0] = false,
 							},
-							["x"] = 653,
+							["x"] = 652.9999724092158,
 							["Potion"] = {
 								0, -- [1]
 								0, -- [2]
@@ -263,7 +263,7 @@ FX_Saved = {
 								},
 							},
 							["GroupOverride"] = true,
-							["y"] = 85,
+							["y"] = 85.00000205822289,
 							["Hide"] = true,
 							["Detail"] = true,
 							["Enchant"] = {
@@ -273,13 +273,13 @@ FX_Saved = {
 								[0] = true,
 							},
 							["Swing"] = false,
+							["Warn"] = true,
 							["Buff"] = {
 								0, -- [1]
 								0, -- [2]
 								0, -- [3]
 								[0] = true,
 							},
-							["Flip"] = false,
 							["scale"] = 1,
 							["IconTime"] = false,
 							["Test"] = false,
@@ -377,7 +377,7 @@ FX_Saved = {
 							},
 							["SplashFactor"] = 1,
 							["Height"] = 32,
-							["Warn"] = true,
+							["Flip"] = false,
 							["MinRange"] = {
 								12, -- [1]
 								[0] = true,
@@ -1067,15 +1067,94 @@ FX_Saved = {
 		},
 	},
 	["RaidStatus"] = {
+		["Léi-Illidan"] = {
+			-2, -- [1]
+			261892.696, -- [2]
+			"MONK", -- [3]
+		},
+		["Doinustoo"] = {
+			-2, -- [1]
+			261927.24, -- [2]
+			"PALADIN", -- [3]
+		},
+		["Unattainable-Tichondrius"] = {
+			-2, -- [1]
+			261892.696, -- [2]
+			"MAGE", -- [3]
+		},
+		["Pecmam-Gallywix"] = {
+			-2, -- [1]
+			261900.188, -- [2]
+			"WARLOCK", -- [3]
+		},
 		["Mooselini"] = {
 			0, -- [1]
-			257613.349, -- [2]
+			264030.348, -- [2]
 			"PRIEST", -- [3]
 			"v1.980.8", -- [4]
 		},
+		["Fhei-Dawnbringer"] = {
+			-2, -- [1]
+			261901.693, -- [2]
+			"MONK", -- [3]
+		},
+		["Squidbag-BleedingHollow"] = {
+			-2, -- [1]
+			261892.696, -- [2]
+			"PALADIN", -- [3]
+		},
+		["Sparkdablunt-Arthas"] = {
+			-2, -- [1]
+			261892.696, -- [2]
+			"DRUID", -- [3]
+		},
+		["Redhotpepper-Stormrage"] = {
+			-2, -- [1]
+			261891.694, -- [2]
+			"HUNTER", -- [3]
+		},
+		["Chopnuggetz-CenarionCircle"] = {
+			-2, -- [1]
+			261901.693, -- [2]
+			"DEATHKNIGHT", -- [3]
+		},
+		["Jezao-Gallywix"] = {
+			-2, -- [1]
+			261898.193, -- [2]
+			"SHAMAN", -- [3]
+		},
+		["Doinki"] = {
+			0, -- [1]
+			264030.348, -- [2]
+			"SHAMAN", -- [3]
+		},
+		["Skiptomaloo"] = {
+			0, -- [1]
+			264030.348, -- [2]
+			"DRUID", -- [3]
+		},
+		["Ghettopal-Stormrage"] = {
+			-2, -- [1]
+			261898.193, -- [2]
+			"PALADIN", -- [3]
+		},
+		["Mcswaqqinz-Illidan"] = {
+			-2, -- [1]
+			261892.696, -- [2]
+			"PRIEST", -- [3]
+		},
+		["Unknown"] = {
+			-2, -- [1]
+			260718.197, -- [2]
+		},
+		["Saranbo-Lightning'sBlade"] = {
+			-2, -- [1]
+			261901.693, -- [2]
+			"WARLOCK", -- [3]
+		},
 		["Failmary"] = {
-			-1, -- [1]
-			256567.14, -- [2]
+			-2, -- [1]
+			258621.853, -- [2]
 			"PRIEST", -- [3]
 		},
 	},

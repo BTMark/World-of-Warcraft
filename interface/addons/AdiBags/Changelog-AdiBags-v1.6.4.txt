@@ -1,0 +1,18 @@
+tag v1.6.4
+2a801cccd1e92bd9bb74468ab6dbadeb1681528c
+Adirelle <adirelle@gmail.com>
+2013-03-05 18:18:29 +0100
+
+Tagging as v1.6.4.
+
+
+--------------------
+
+Adirelle:
+	- TOC bump.
+	- Be more conservative about the dirty level of sections.
+	- Automatically assign the current height to sections of a row.
+	- Update content layout only when first shown or when the width increases of at least 2 columns.
+	- Removed an unused loal.
+	- Added a warning about milling/prospecting/disenchanting and bag updates in the README.
+	- README typo.

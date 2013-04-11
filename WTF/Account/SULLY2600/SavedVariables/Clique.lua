@@ -224,6 +224,13 @@ CliqueDB3 = {
 					["icon"] = "Interface\\Icons\\Spell_Holy_PowerWordShield",
 					["type"] = "spell",
 				}, -- [13]
+				{
+					["type"] = "target",
+					["key"] = "ALT-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [14]
 			},
 		},
 	},

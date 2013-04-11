@@ -23,9 +23,9 @@ ChatAlertsDB = {
 			["texture"] = 4,
 		},
 		["listen"] = {
-			["PARTY"] = false,
 			["GUILD"] = false,
 			["PARTY_LEADER"] = false,
+			["PARTY"] = false,
 			["BN_WHISPER"] = false,
 			["WHISPER"] = false,
 		},

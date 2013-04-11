@@ -15,6 +15,7 @@ ChatterDB = {
 						false, -- [1]
 						false, -- [2]
 						false, -- [3]
+						false, -- [4]
 						[0] = false,
 					},
 				},
@@ -187,8 +188,8 @@ ChatterDB = {
 						{
 							["point"] = "BOTTOMLEFT",
 							["xOffset"] = 0.002468208471934001,
-							["height"] = 180.521728515625,
 							["yOffset"] = 0.01151279561929159,
+							["height"] = 180.521728515625,
 							["width"] = 566.6956176757813,
 						}, -- [3]
 						{
@@ -243,17 +244,17 @@ ChatterDB = {
 						["Frame18"] = false,
 						["Frame12"] = false,
 						["Frame5"] = false,
-						["Frame11"] = false,
+						["Frame3"] = false,
 						["Frame6"] = false,
 						["Frame17"] = false,
-						["Frame16"] = false,
+						["Frame11"] = false,
 						["Frame13"] = false,
 						["Frame19"] = false,
 						["Frame20"] = false,
 						["Frame7"] = false,
 						["Frame15"] = false,
 						["Frame14"] = false,
-						["Frame3"] = false,
+						["Frame16"] = false,
 					},
 				},
 			},
@@ -264,10 +265,10 @@ ChatterDB = {
 					["attach"] = "TOP",
 					["border"] = "None",
 					["font"] = "SSPro - Regular",
+					["background"] = "Solid",
 					["backgroundColor"] = {
 						["a"] = 0.6299999952316284,
 					},
-					["background"] = "Solid",
 				},
 			},
 		},
@@ -316,38 +317,38 @@ ChatterDB = {
 			["realm"] = {
 				["Area 52"] = {
 					["history"] = {
-						"/cw Soosie who even does that", -- [1]
-						"/cw Soosie I DIIIIIIIIIIIIID i just had to find a sarcastic comment", -- [2]
-						"/cw Soosie alright im gonna go get coffee. have a good night yao ming, sleep well", -- [3]
-						" aye you", -- [4]
-						" how we doing today <3", -- [5]
-						" chillin, trying to get used to disc", -- [6]
-						" yeah definitely", -- [7]
-						" its not hugely necessary in pvp thankfully", -- [8]
-						" in 2s you can use it a little more effectively", -- [9]
-						" but what ive been doing is prayer of mending to get spark before i do anything", -- [10]
-						" if i think someone's gonna silence me, i'll pop inner focus", -- [11]
-						" once they're topped, ill just drop a renew on them just incase", -- [12]
-						"/grid", -- [13]
-						"/quartz", -- [14]
-						"/grid", -- [15]
-						"/2 you can just make one", -- [16]
-						"/2 oh god now i'm confused", -- [17]
-						" DONNA OLSON IS A SAINT", -- [18]
-						"/quartz", -- [19]
-						"/console synchronizeBindings 0", -- [20]
-						"/chatter", -- [21]
-						"/ginvite failmary", -- [22]
-						"/g DATS RIGHT", -- [23]
-						"/pitbull", -- [24]
-						"/tar fa", -- [25]
-						"/moan", -- [26]
-						"/rl", -- [27]
-						"/o sajdhjsahd", -- [28]
-						"/chatter", -- [29]
-						"/vd opt", -- [30]
-						"/vd opt", -- [31]
-						"/vd opt", -- [32]
+						"/g she only sells the contenders", -- [1]
+						"/g want to start setting up a weekly icc run", -- [2]
+						"/g maybe even t11 shit", -- [3]
+						"/g running molten core right quick if you wanna beat stuff up", -- [4]
+						"/pitbull", -- [5]
+						"/vuhdo", -- [6]
+						"/vuhdo opt", -- [7]
+						"/vd opt", -- [8]
+						"/vd opt", -- [9]
+						"/vd opt", -- [10]
+						"/vd opt", -- [11]
+						"/clique", -- [12]
+						"/kb", -- [13]
+						"/g peeing", -- [14]
+						"/adibags", -- [15]
+						"/adibags", -- [16]
+						"/g she says yes", -- [17]
+						"/g and she cant reply", -- [18]
+						"/g cuz she has something open", -- [19]
+						"/adibags", -- [20]
+						"/p cta?", -- [21]
+						"/p venting it up", -- [22]
+						"/tiptac", -- [23]
+						"/tiptac", -- [24]
+						"/tiptac", -- [25]
+						"/i 3 bs", -- [26]
+						"/tiptac", -- [27]
+						" nice whats his name", -- [28]
+						"/who doomha", -- [29]
+						"/skada config", -- [30]
+						"/tar da", -- [31]
+						"/tar squi", -- [32]
 					},
 				},
 			},
@@ -376,8 +377,8 @@ ChatterDB = {
 			["modules"] = {
 				["Link Hover"] = false,
 				["Group Say (/gr)"] = false,
-				["Server Positioning"] = true,
 				["Tell Target (/tt)"] = false,
+				["Server Positioning"] = true,
 				["BNet"] = true,
 			},
 			["welcomeMessaged"] = true,

@@ -119,17 +119,11 @@ SkadaDB = {
 				{
 					["barheight"] = 22,
 					["classicons"] = false,
-					["background"] = {
-						["color"] = {
-							["a"] = 0,
-							["b"] = 0,
-						},
-						["height"] = 161,
-						["texture"] = "Blizzard Dialog Background",
-					},
+					["clickthrough"] = true,
+					["wipemode"] = "DPS",
 					["set"] = "total",
 					["y"] = 5.217475891113281,
-					["barfont"] = "SSPro - Semibold",
+					["x"] = 0,
 					["name"] = "HPS",
 					["point"] = "BOTTOMRIGHT",
 					["scale"] = 0.9,
@@ -139,26 +133,6 @@ SkadaDB = {
 						["b"] = 0,
 					},
 					["mode"] = "DPS",
-					["buttons"] = {
-						["report"] = false,
-						["menu"] = false,
-						["mode"] = false,
-						["segment"] = false,
-						["reset"] = false,
-					},
-					["spark"] = false,
-					["bartexture"] = "Smooth",
-					["barwidth"] = 201.4999542236328,
-					["x"] = 0,
-					["barbgcolor"] = {
-						["a"] = 1,
-						["r"] = 0.3019607843137255,
-						["g"] = 0.3019607843137255,
-						["b"] = 0.3019607843137255,
-					},
-					["enabletitle"] = false,
-					["barfontsize"] = 15,
-					["clickthrough"] = true,
 					["title"] = {
 						["color"] = {
 							["a"] = 0,
@@ -170,6 +144,33 @@ SkadaDB = {
 						["fontsize"] = 15,
 						["texture"] = "Blizzard",
 					},
+					["spark"] = false,
+					["buttons"] = {
+						["report"] = false,
+						["menu"] = false,
+						["mode"] = false,
+						["segment"] = false,
+						["reset"] = false,
+					},
+					["barwidth"] = 201.4999542236328,
+					["bartexture"] = "Smooth",
+					["barbgcolor"] = {
+						["a"] = 1,
+						["r"] = 0.3019607843137255,
+						["g"] = 0.3019607843137255,
+						["b"] = 0.3019607843137255,
+					},
+					["background"] = {
+						["color"] = {
+							["a"] = 0,
+							["b"] = 0,
+						},
+						["height"] = 161,
+						["texture"] = "Blizzard Dialog Background",
+					},
+					["barfontsize"] = 15,
+					["modeincombat"] = "DPS",
+					["barfont"] = "SSPro - Semibold",
 				}, -- [1]
 			},
 			["icon"] = {

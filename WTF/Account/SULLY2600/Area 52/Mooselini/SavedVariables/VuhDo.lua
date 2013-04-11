@@ -874,14 +874,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Lightning Storm"] = {
+			["Lightning Bolt"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Improved Synapses"] = {
+			["Ionization"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -972,7 +972,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Amber Prison"] = {
+			["Energizing Smash"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1035,7 +1035,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Breath of Fear"] = {
+			["Fright"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1070,14 +1070,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Fright"] = {
+			["Arcane Velocity"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Arcane Velocity"] = {
+			["Breath of Fear"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1112,7 +1112,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Triple Puncture"] = {
+			["Crimson Wake"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1133,7 +1133,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Heart of Fear"] = {
+			["Serious Wound"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1322,7 +1322,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Dire Fixation"] = {
+			["Twisted Fate"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1336,14 +1336,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Overwhelming Assault"] = {
+			["Dire Fixation"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Twisted Fate"] = {
+			["Overwhelming Assault"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1413,7 +1413,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Wind Step"] = {
+			["Rot Armor"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1427,14 +1427,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Dread Shadows"] = {
+			["Wind Step"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Rot Armor"] = {
+			["Dread Shadows"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1658,14 +1658,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Serious Wound"] = {
+			["Heart of Fear"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Crimson Wake"] = {
+			["Triple Puncture"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1735,14 +1735,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Energizing Smash"] = {
+			["Lightning Charge"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Lightning Charge"] = {
+			["Amber Prison"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1756,14 +1756,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Ionization"] = {
+			["Improved Synapses"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Lightning Bolt"] = {
+			["Lightning Storm"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1946,7 +1946,7 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["height"] = 165.0000152587891,
 			["growth"] = "TOPLEFT",
-			["width"] = 469.9999694824219,
+			["width"] = 280,
 		},
 		["RAID_ICON"] = {
 			["show"] = true,
@@ -1957,12 +1957,12 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
-			["sort"] = 0,
 			["ordering"] = 0,
 			["groups"] = {
 				1, -- [1]
 				2, -- [2]
 			},
+			["sort"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -2083,7 +2083,7 @@ VUHDO_PANEL_SETUP = {
 			["position"] = "TOPRIGHT+TOPRIGHT",
 			["yAdjust"] = 0,
 			["xAdjust"] = 0,
-			["_spacing"] = 44.00000381469727,
+			["_spacing"] = 44,
 			["showPetOwners"] = false,
 		},
 		["LIFE_TEXT"] = {
@@ -4304,6 +4304,21 @@ VUHDO_PANEL_SETUP = {
 	},
 }
 VUHDO_SPELL_ASSIGNMENTS = {
+	["alt1"] = {
+		nil, -- [1]
+		"1", -- [2]
+		"Target", -- [3]
+	},
+	["3"] = {
+		nil, -- [1]
+		"3", -- [2]
+		"Penance", -- [3]
+	},
+	["1"] = {
+		nil, -- [1]
+		"1", -- [2]
+		"Flash Heal", -- [3]
+	},
 }
 VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
 }
@@ -4312,12 +4327,8 @@ VUHDO_MM_SETTINGS = {
 	["position"] = 0,
 }
 VUHDO_PLAYER_TARGETS = {
-	["Dustbender"] = true,
-	["Imbadwarf"] = true,
 }
 VUHDO_MAINTANK_NAMES = {
-	"Bonepet", -- [1]
-	"Flashaddict", -- [2]
 }
 VUHDO_BUFF_SETTINGS = {
 	["Inner Fire"] = {
@@ -4706,9 +4717,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -4716,9 +4727,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -4771,9 +4782,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w9", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 	},
@@ -4800,9 +4811,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -4810,9 +4821,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -4865,9 +4876,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w9", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 	},
@@ -4909,451 +4920,104 @@ VUHDO_SPEC_LAYOUTS = {
 	["selected"] = "",
 	["2"] = "",
 }
-VUHDO_GROUP_SIZE = 2
+VUHDO_GROUP_SIZE = 3
 VUHDO_RAID = {
-	["raidpet4"] = {
-		["visible"] = false,
-		["class"] = "WARRIOR",
-		["isVehicle"] = false,
-		["group"] = 0,
-		["afk"] = false,
-		["range"] = false,
-		["unit"] = "raidpet4",
-		["baseRange"] = false,
-		["debuff"] = 0,
-		["healthmax"] = 15624,
-		["number"] = 4,
-		["sortMaxHp"] = 15624,
-		["targetUnit"] = "raidpet4target",
-		["dead"] = false,
-		["charmed"] = false,
-		["powermax"] = 100,
-		["power"] = 17,
-		["aggro"] = false,
-		["powertype"] = 1,
-		["threatPerc"] = 76,
-		["fullName"] = "Cavewaker",
-		["isPet"] = true,
-		["classId"] = 20,
-		["health"] = 10574,
-		["className"] = "Warrior",
-		["connected"] = true,
-		["ownerUnit"] = "raid4",
-		["threat"] = 0,
-		["name"] = "Cavewaker",
-	},
-	["raidpet2"] = {
-		["visible"] = false,
-		["class"] = "WARRIOR",
-		["isVehicle"] = false,
-		["group"] = 0,
-		["afk"] = false,
-		["range"] = false,
-		["unit"] = "raidpet2",
-		["baseRange"] = false,
-		["debuff"] = 4,
-		["healthmax"] = 10864,
+	["party2"] = {
 		["number"] = 2,
-		["sortMaxHp"] = 10864,
-		["targetUnit"] = "raidpet2target",
-		["dead"] = false,
-		["charmed"] = false,
-		["powermax"] = 100,
-		["power"] = 52,
-		["aggro"] = false,
-		["powertype"] = 1,
-		["threatPerc"] = 82,
-		["fullName"] = "Flowercake",
-		["isPet"] = true,
-		["classId"] = 20,
-		["health"] = 9163,
-		["className"] = "Warrior",
-		["connected"] = true,
-		["ownerUnit"] = "raid2",
-		["threat"] = 0,
-		["name"] = "Flowercake",
-	},
-	["raidpet1"] = {
-		["visible"] = true,
-		["class"] = "WARRIOR",
-		["isVehicle"] = false,
-		["group"] = 0,
-		["afk"] = false,
-		["range"] = true,
-		["unit"] = "raidpet1",
-		["baseRange"] = true,
-		["debuff"] = 0,
-		["healthmax"] = 19989,
-		["number"] = 1,
-		["sortMaxHp"] = 19989,
-		["targetUnit"] = "raidpet1target",
-		["dead"] = false,
-		["charmed"] = false,
-		["powermax"] = 100,
-		["power"] = 91,
-		["aggro"] = false,
-		["powertype"] = 1,
-		["threatPerc"] = 31,
-		["fullName"] = "Coolcutter",
-		["isPet"] = true,
-		["classId"] = 20,
-		["health"] = 19430,
-		["className"] = "Warrior",
-		["connected"] = true,
-		["ownerUnit"] = "raid1",
-		["threat"] = 0,
-		["name"] = "Coolcutter",
-	},
-	["raid7"] = {
-		["visible"] = true,
 		["powertype"] = 0,
-		["baseRange"] = true,
-		["isVehicle"] = false,
-		["group"] = 2,
-		["afk"] = false,
-		["range"] = true,
-		["unit"] = "raid7",
-		["debuff"] = 0,
-		["healthmax"] = 18889,
-		["number"] = 7,
-		["targetUnit"] = "raid7target",
-		["sortMaxHp"] = 18889,
-		["class"] = "DRUID",
-		["dead"] = false,
-		["charmed"] = false,
-		["powermax"] = 100,
-		["power"] = 39,
-		["petUnit"] = "raidpet7",
-		["fullName"] = "Flowersaw",
-		["threatPerc"] = 0,
-		["role"] = 62,
-		["isPet"] = false,
-		["classId"] = 27,
-		["health"] = 12384,
-		["className"] = "Druid",
-		["connected"] = true,
-		["aggro"] = false,
-		["threat"] = 0,
-		["name"] = "Flowersaw",
-	},
-	["raid10"] = {
-		["visible"] = true,
-		["powertype"] = 0,
-		["baseRange"] = true,
-		["isVehicle"] = false,
-		["group"] = 2,
-		["afk"] = false,
-		["range"] = true,
-		["unit"] = "raid10",
-		["debuff"] = 0,
-		["healthmax"] = 13303,
-		["number"] = 10,
-		["targetUnit"] = "raid10target",
-		["sortMaxHp"] = 13303,
-		["class"] = "MONK",
-		["dead"] = true,
-		["charmed"] = false,
-		["powermax"] = 100,
-		["power"] = 73,
-		["petUnit"] = "raidpet10",
-		["fullName"] = "Darknessdemon",
-		["threatPerc"] = 31,
-		["role"] = 63,
-		["isPet"] = false,
-		["classId"] = 30,
-		["health"] = 12449,
-		["className"] = "Monk",
-		["connected"] = true,
-		["aggro"] = false,
-		["threat"] = 0,
-		["name"] = "Darknessdemon",
-	},
-	["raid4"] = {
-		["visible"] = true,
-		["powertype"] = 0,
-		["baseRange"] = true,
-		["isVehicle"] = false,
+		["zone"] = "Valley of Wisdom",
 		["group"] = 1,
-		["afk"] = false,
-		["range"] = true,
-		["unit"] = "raid4",
-		["debuff"] = 0,
-		["healthmax"] = 10927,
-		["number"] = 4,
-		["targetUnit"] = "raid4target",
-		["sortMaxHp"] = 10927,
-		["class"] = "MAGE",
-		["dead"] = false,
-		["charmed"] = false,
-		["powermax"] = 100,
-		["power"] = 22,
-		["petUnit"] = "raidpet4",
-		["fullName"] = "Splatterfinder",
-		["threatPerc"] = 69,
-		["role"] = 61,
-		["isPet"] = false,
-		["classId"] = 24,
-		["health"] = 10927,
-		["className"] = "Mage",
-		["connected"] = false,
-		["aggro"] = false,
-		["threat"] = 0,
-		["name"] = "Splatterfinder",
-	},
-	["raid8"] = {
-		["visible"] = false,
-		["powertype"] = 0,
-		["baseRange"] = false,
-		["isVehicle"] = false,
-		["group"] = 2,
-		["afk"] = true,
-		["range"] = false,
-		["unit"] = "raid8",
-		["debuff"] = 0,
-		["healthmax"] = 10047,
-		["number"] = 8,
-		["targetUnit"] = "raid8target",
-		["sortMaxHp"] = 10047,
-		["class"] = "PRIEST",
-		["dead"] = false,
-		["charmed"] = false,
-		["powermax"] = 100,
-		["power"] = 6,
-		["petUnit"] = "raidpet8",
-		["fullName"] = "Dustbender",
-		["threatPerc"] = 31,
-		["role"] = 63,
-		["isPet"] = false,
-		["classId"] = 28,
-		["health"] = 9195,
-		["className"] = "Priest",
-		["connected"] = true,
-		["aggro"] = false,
-		["threat"] = 0,
-		["name"] = "Dustbender",
-	},
-	["raid3"] = {
-		["visible"] = false,
-		["powertype"] = 0,
-		["baseRange"] = false,
-		["isVehicle"] = false,
-		["group"] = 1,
-		["afk"] = false,
-		["range"] = false,
-		["unit"] = "raid3",
-		["debuff"] = 1,
-		["healthmax"] = 15248,
-		["number"] = 3,
-		["targetUnit"] = "raid3target",
-		["sortMaxHp"] = 15248,
-		["class"] = "PALADIN",
-		["dead"] = false,
-		["charmed"] = false,
-		["powermax"] = 100,
-		["power"] = 53,
-		["petUnit"] = "raidpet3",
-		["fullName"] = "Heatqueen",
-		["threatPerc"] = 25,
-		["role"] = 61,
-		["isPet"] = false,
-		["classId"] = 23,
-		["health"] = 845,
-		["className"] = "Paladin",
-		["connected"] = true,
-		["aggro"] = false,
-		["threat"] = 0,
-		["name"] = "Heatqueen",
-	},
-	["raid1"] = {
-		["visible"] = true,
-		["powertype"] = 1,
-		["baseRange"] = true,
-		["isVehicle"] = false,
-		["group"] = 1,
-		["afk"] = false,
-		["range"] = true,
-		["unit"] = "raid1",
-		["debuff"] = 4,
-		["healthmax"] = 11732,
-		["number"] = 1,
-		["targetUnit"] = "raid1target",
-		["sortMaxHp"] = 11732,
-		["class"] = "WARRIOR",
-		["dead"] = false,
-		["charmed"] = false,
-		["powermax"] = 100,
-		["power"] = 49,
-		["petUnit"] = "raidpet1",
-		["fullName"] = "Bonepet",
-		["threatPerc"] = 87,
-		["role"] = 60,
-		["isPet"] = false,
-		["classId"] = 20,
-		["health"] = 6626,
-		["className"] = "Warrior",
-		["connected"] = true,
-		["aggro"] = false,
-		["threat"] = 0,
-		["name"] = "Bonepet",
-	},
-	["raid9"] = {
-		["visible"] = true,
-		["powertype"] = 6,
-		["baseRange"] = true,
-		["isVehicle"] = false,
-		["group"] = 2,
-		["afk"] = false,
-		["range"] = true,
-		["unit"] = "raid9",
-		["debuff"] = 0,
-		["healthmax"] = 13368,
-		["number"] = 9,
-		["targetUnit"] = "raid9target",
-		["sortMaxHp"] = 13368,
-		["class"] = "DEATHKNIGHT",
-		["dead"] = false,
-		["charmed"] = false,
-		["powermax"] = 100,
-		["power"] = 64,
-		["petUnit"] = "raidpet9",
-		["fullName"] = "Imbadwarf",
-		["threatPerc"] = 22,
-		["role"] = 63,
-		["isPet"] = false,
-		["classId"] = 29,
-		["health"] = 13368,
-		["className"] = "Death Knight",
-		["connected"] = true,
-		["aggro"] = false,
-		["threat"] = 0,
-		["name"] = "Imbadwarf",
-	},
-	["raid6"] = {
-		["visible"] = true,
-		["powertype"] = 0,
-		["baseRange"] = true,
-		["isVehicle"] = false,
-		["group"] = 2,
-		["afk"] = false,
-		["range"] = true,
-		["unit"] = "raid6",
-		["debuff"] = 0,
-		["healthmax"] = 17728,
-		["number"] = 6,
-		["targetUnit"] = "raid6target",
-		["sortMaxHp"] = 17728,
-		["class"] = "SHAMAN",
-		["dead"] = false,
-		["charmed"] = false,
-		["powermax"] = 100,
-		["power"] = 68,
-		["petUnit"] = "raidpet6",
-		["fullName"] = "Bonesniper",
-		["threatPerc"] = 30,
-		["role"] = 62,
-		["isPet"] = false,
 		["classId"] = 26,
-		["health"] = 17577,
-		["className"] = "Shaman",
-		["connected"] = true,
-		["aggro"] = false,
-		["threat"] = 0,
-		["name"] = "Bonesniper",
-	},
-	["raid5"] = {
-		["visible"] = true,
-		["powertype"] = 0,
-		["baseRange"] = true,
-		["isVehicle"] = false,
-		["group"] = 1,
-		["afk"] = false,
-		["range"] = true,
-		["unit"] = "raid5",
-		["debuff"] = 0,
-		["healthmax"] = 19266,
-		["number"] = 5,
-		["targetUnit"] = "raid5target",
-		["sortMaxHp"] = 19266,
-		["class"] = "WARLOCK",
-		["dead"] = false,
-		["charmed"] = false,
-		["powermax"] = 100,
-		["power"] = 59,
-		["petUnit"] = "raidpet5",
-		["fullName"] = "Savagegod",
-		["threatPerc"] = 54,
-		["role"] = 62,
-		["isPet"] = false,
-		["classId"] = 25,
-		["health"] = 1069,
-		["className"] = "Warlock",
-		["connected"] = true,
-		["aggro"] = false,
-		["threat"] = 0,
-		["name"] = "Savagegod",
-	},
-	["raid2"] = {
-		["visible"] = false,
-		["powertype"] = 3,
-		["baseRange"] = false,
-		["isVehicle"] = false,
-		["group"] = 1,
-		["afk"] = true,
 		["range"] = false,
-		["unit"] = "raid2",
+		["unit"] = "party2",
+		["role"] = 62,
 		["debuff"] = 0,
-		["healthmax"] = 13267,
-		["number"] = 2,
-		["targetUnit"] = "raid2target",
-		["sortMaxHp"] = 13267,
-		["class"] = "ROGUE",
-		["dead"] = false,
-		["charmed"] = false,
-		["powermax"] = 100,
-		["power"] = 97,
-		["petUnit"] = "raidpet2",
-		["fullName"] = "Flashaddict",
-		["threatPerc"] = 89,
-		["role"] = 60,
-		["isPet"] = false,
-		["classId"] = 21,
-		["health"] = 13267,
-		["className"] = "Rogue",
-		["connected"] = true,
-		["aggro"] = false,
+		["healthmax"] = 331777,
+		["targetUnit"] = "party2target",
+		["baseRange"] = false,
+		["sortMaxHp"] = 331777,
+		["class"] = "SHAMAN",
+		["isAltPower"] = false,
+		["debuffName"] = "",
 		["threat"] = 0,
-		["name"] = "Flashaddict",
-	},
-	["raidpet3"] = {
-		["visible"] = true,
-		["class"] = "WARRIOR",
+		["powermax"] = 37856,
+		["power"] = 37856,
+		["petUnit"] = "partypet2",
 		["isVehicle"] = false,
-		["group"] = 0,
-		["afk"] = false,
-		["range"] = true,
-		["unit"] = "raidpet3",
-		["baseRange"] = true,
-		["debuff"] = 0,
-		["healthmax"] = 14048,
-		["number"] = 3,
-		["sortMaxHp"] = 14048,
-		["targetUnit"] = "raidpet3target",
-		["dead"] = false,
-		["charmed"] = false,
-		["powermax"] = 100,
-		["power"] = 31,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["map"] = "IcecrownGlacier",
+		["health"] = 331777,
+		["className"] = "Shaman",
+		["connected"] = 1,
+		["fullName"] = "Doinki",
 		["aggro"] = false,
-		["powertype"] = 1,
-		["threatPerc"] = 50,
-		["fullName"] = "Cultbuilder",
-		["isPet"] = true,
-		["classId"] = 20,
-		["health"] = 12811,
-		["className"] = "Warrior",
-		["connected"] = true,
-		["ownerUnit"] = "raid3",
+		["name"] = "Doinki",
+	},
+	["player"] = {
+		["number"] = 1,
+		["map"] = "IcecrownGlacier",
+		["visible"] = 1,
+		["targetUnit"] = "target",
+		["baseRange"] = true,
+		["class"] = "PRIEST",
+		["range"] = true,
+		["unit"] = "player",
+		["isVehicle"] = false,
+		["debuff"] = 0,
+		["healthmax"] = 428587,
+		["group"] = 1,
+		["classId"] = 28,
+		["sortMaxHp"] = 428587,
+		["isAltPower"] = false,
+		["powertype"] = 0,
+		["debuffName"] = "",
+		["connected"] = 1,
+		["fullName"] = "Mooselini",
+		["power"] = 300000,
+		["aggro"] = false,
+		["zone"] = "Icecrown",
+		["threatPerc"] = 0,
+		["isPet"] = false,
 		["threat"] = 0,
-		["name"] = "Cultbuilder",
+		["name"] = "Mooselini",
+		["className"] = "Priest",
+		["powermax"] = 300000,
+		["petUnit"] = "pet",
+		["role"] = 62,
+		["health"] = 428587,
+	},
+	["party1"] = {
+		["number"] = 1,
+		["powertype"] = 0,
+		["zone"] = "Valley of Wisdom",
+		["group"] = 1,
+		["classId"] = 27,
+		["range"] = false,
+		["unit"] = "party1",
+		["role"] = 61,
+		["debuff"] = 0,
+		["healthmax"] = 416953,
+		["targetUnit"] = "party1target",
+		["baseRange"] = false,
+		["sortMaxHp"] = 416953,
+		["class"] = "DRUID",
+		["isAltPower"] = false,
+		["debuffName"] = "",
+		["threat"] = 0,
+		["powermax"] = 60000,
+		["power"] = 60000,
+		["petUnit"] = "partypet1",
+		["isVehicle"] = false,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["map"] = "IcecrownGlacier",
+		["health"] = 416953,
+		["className"] = "Druid",
+		["connected"] = 1,
+		["fullName"] = "Skiptomaloo",
+		["aggro"] = false,
+		["name"] = "Skiptomaloo",
 	},
 }
 VUHDO_INDICATOR_CONFIG = {
@@ -5362,16 +5026,16 @@ VUHDO_INDICATOR_CONFIG = {
 		["MOUSEOVER_HIGHLIGHT"] = "",
 		["AGGRO_BAR"] = "",
 		["BACKGROUND_BAR"] = "0bg",
-		["SWIFTMEND_INDICATOR"] = "",
-		["DAMAGE_FLASH_BAR"] = "",
-		["INCOMING_BAR"] = "",
 		["CLUSTER_BORDER"] = "",
+		["SIDE_LEFT"] = "",
+		["INCOMING_BAR"] = "",
+		["SWIFTMEND_INDICATOR"] = "",
 		["THREAT_MARK"] = "",
-		["SIDE_RIGHT"] = "",
 		["MANA_BAR"] = "0mb",
 		["BAR_BORDER"] = "",
+		["SIDE_RIGHT"] = "",
 		["HEALTH_BAR"] = "ohb",
-		["SIDE_LEFT"] = "",
+		["DAMAGE_FLASH_BAR"] = "",
 		["HEALTH_BAR_PANEL"] = {
 			"", -- [1]
 			"", -- [2]
@@ -5412,26 +5076,26 @@ VUHDO_INDICATOR_CONFIG = {
 			["invertGrowth"] = false,
 			["TEXTURE"] = "VuhDo - Plain White",
 		},
+		["MANA_BAR"] = {
+			["turnAxis"] = true,
+			["invertGrowth"] = true,
+			["TEXTURE"] = "VuhDo - Plain",
+		},
 		["SIDE_RIGHT"] = {
 			["turnAxis"] = false,
 			["vertical"] = true,
 			["invertGrowth"] = false,
 			["TEXTURE"] = "VuhDo - Plain White",
 		},
-		["BAR_BORDER"] = {
-			["FILE"] = "Interface\\AddOns\\VuhDo\\Images\\white_square_16_16",
-			["ADJUST"] = 0,
-			["WIDTH"] = 1,
-		},
 		["HEALTH_BAR"] = {
 			["turnAxis"] = true,
 			["vertical"] = false,
 			["invertGrowth"] = true,
 		},
-		["MANA_BAR"] = {
-			["turnAxis"] = true,
-			["invertGrowth"] = true,
-			["TEXTURE"] = "VuhDo - Plain",
+		["BAR_BORDER"] = {
+			["FILE"] = "Interface\\AddOns\\VuhDo\\Images\\white_square_16_16",
+			["ADJUST"] = 0,
+			["WIDTH"] = 1,
 		},
 		["SWIFTMEND_INDICATOR"] = {
 			["SCALE"] = 1,

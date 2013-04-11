@@ -44,7 +44,7 @@ SexyMap2DB = {
 				["LibDBIcon10_Bartender4"] = 130.1009539919875,
 				["LibDBIcon10_Grid"] = 202.3531651264378,
 				["MiniMapTracking"] = 45.36178464836605,
-				["QueueStatusMinimapButton"] = 248.7495031001347,
+				["QueueStatusMinimapButton"] = 226.7614541847336,
 			},
 			["controlVisibility"] = true,
 		},
