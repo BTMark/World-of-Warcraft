@@ -5,78 +5,19 @@ SkadaDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Plebe - Area 52"] = "Default",
 		["Esoom - Garona"] = "Default",
+		["Plebe - Area 52"] = "Default",
 		["Mooselini - Area 52"] = "Test",
 		["Plebeian - Area 52"] = "Default",
+		["Ohgirl - Garona"] = "Default",
 	},
 	["profiles"] = {
 		["Shadow and Light (Affinitii)"] = {
-			["windows"] = {
-				{
-					["barheight"] = 22,
-					["classicons"] = false,
-					["clickthrough"] = true,
-					["y"] = 5.217475891113281,
-					["barfont"] = "SSPro - Semibold",
-					["name"] = "HPS",
-					["barfontsize"] = 10,
-					["background"] = {
-						["color"] = {
-							["a"] = 0,
-							["b"] = 0,
-						},
-						["height"] = 161,
-						["texture"] = "Blizzard Dialog Background",
-					},
-					["bartexture"] = "Smooth",
-					["spark"] = false,
-					["buttons"] = {
-						["segment"] = false,
-						["menu"] = false,
-						["mode"] = false,
-						["report"] = false,
-						["reset"] = false,
-					},
-					["barwidth"] = 201.4999542236328,
-					["title"] = {
-						["fontsize"] = 15,
-						["font"] = "ElvUI Font",
-						["color"] = {
-							["a"] = 0,
-							["b"] = 0,
-							["g"] = 0,
-							["r"] = 0,
-						},
-						["texture"] = "Blizzard",
-					},
-					["barcolor"] = {
-						["a"] = 0,
-						["b"] = 0,
-						["g"] = 0,
-						["r"] = 0,
-					},
-					["enabletitle"] = true,
-					["mode"] = "Healing",
-					["barbgcolor"] = {
-						["a"] = 0,
-						["b"] = 0.3019607843137255,
-						["g"] = 0.3019607843137255,
-						["r"] = 0.3019607843137255,
-					},
-					["x"] = 0,
-					["point"] = "BOTTOMRIGHT",
-				}, -- [1]
-			},
 			["report"] = {
 				["number"] = 12,
-				["channel"] = "party",
-				["target"] = "Graveblood",
 				["mode"] = "Damage taken",
-			},
-			["icon"] = {
-				["minimapPos"] = 160.4361246854299,
-				["hide"] = true,
+				["target"] = "Graveblood",
+				["channel"] = "party",
 			},
 			["columns"] = {
 				["Deaths_Deaths"] = false,
@@ -91,8 +32,68 @@ SkadaDB = {
 				["Deaths_Timestamp"] = false,
 				["Threat_Percent"] = false,
 			},
-			["tooltippos"] = "topleft",
 			["hidedisables"] = false,
+			["windows"] = {
+				{
+					["barheight"] = 22,
+					["barbgcolor"] = {
+						["a"] = 0,
+						["b"] = 0.3019607843137255,
+						["g"] = 0.3019607843137255,
+						["r"] = 0.3019607843137255,
+					},
+					["barcolor"] = {
+						["a"] = 0,
+						["b"] = 0,
+						["g"] = 0,
+						["r"] = 0,
+					},
+					["barfontsize"] = 10,
+					["classicons"] = false,
+					["clickthrough"] = true,
+					["spark"] = false,
+					["bartexture"] = "Smooth",
+					["barwidth"] = 201.4999542236328,
+					["background"] = {
+						["color"] = {
+							["a"] = 0,
+							["b"] = 0,
+						},
+						["height"] = 161,
+						["texture"] = "Blizzard Dialog Background",
+					},
+					["buttons"] = {
+						["segment"] = false,
+						["menu"] = false,
+						["mode"] = false,
+						["report"] = false,
+						["reset"] = false,
+					},
+					["y"] = 5.217475891113281,
+					["barfont"] = "SSPro - Semibold",
+					["name"] = "HPS",
+					["title"] = {
+						["color"] = {
+							["a"] = 0,
+							["b"] = 0,
+							["g"] = 0,
+							["r"] = 0,
+						},
+						["font"] = "ElvUI Font",
+						["fontsize"] = 15,
+						["texture"] = "Blizzard",
+					},
+					["enabletitle"] = true,
+					["mode"] = "Healing",
+					["x"] = 0,
+					["point"] = "BOTTOMRIGHT",
+				}, -- [1]
+			},
+			["icon"] = {
+				["minimapPos"] = 160.4361246854299,
+				["hide"] = true,
+			},
+			["tooltippos"] = "topleft",
 			["reset"] = {
 				["leave"] = 2,
 				["instance"] = 2,
@@ -118,17 +119,18 @@ SkadaDB = {
 				{
 					["barheight"] = 22,
 					["classicons"] = false,
+					["clickthrough"] = true,
+					["set"] = "total",
 					["y"] = 5.217475891113281,
 					["barfont"] = "SSPro - Semibold",
 					["name"] = "HPS",
-					["barbgcolor"] = {
-						["a"] = 1,
-						["b"] = 0.3019607843137255,
-						["g"] = 0.3019607843137255,
-						["r"] = 0.3019607843137255,
+					["scale"] = 0.9,
+					["barcolor"] = {
+						["b"] = 0,
+						["g"] = 0,
+						["r"] = 0,
 					},
-					["point"] = "BOTTOMRIGHT",
-					["x"] = 0,
+					["bartexture"] = "Smooth",
 					["spark"] = false,
 					["buttons"] = {
 						["report"] = false,
@@ -138,7 +140,15 @@ SkadaDB = {
 						["reset"] = false,
 					},
 					["barwidth"] = 201.4999542236328,
-					["mode"] = "Healing",
+					["mode"] = "DPS",
+					["barbgcolor"] = {
+						["a"] = 1,
+						["b"] = 0.3019607843137255,
+						["g"] = 0.3019607843137255,
+						["r"] = 0.3019607843137255,
+					},
+					["point"] = "BOTTOMRIGHT",
+					["barfontsize"] = 15,
 					["background"] = {
 						["color"] = {
 							["a"] = 0,
@@ -147,14 +157,8 @@ SkadaDB = {
 						["height"] = 161,
 						["texture"] = "Blizzard Dialog Background",
 					},
-					["barcolor"] = {
-						["b"] = 0,
-						["g"] = 0,
-						["r"] = 0,
-					},
-					["clickthrough"] = true,
-					["barfontsize"] = 10,
-					["bartexture"] = "Smooth",
+					["enabletitle"] = false,
+					["x"] = 0,
 					["title"] = {
 						["color"] = {
 							["a"] = 0,
@@ -168,15 +172,15 @@ SkadaDB = {
 					},
 				}, -- [1]
 			},
-			["report"] = {
-				["number"] = 12,
-				["target"] = "Graveblood",
-				["mode"] = "Damage taken",
-				["channel"] = "party",
-			},
 			["icon"] = {
 				["minimapPos"] = 160.4361246854299,
 				["hide"] = true,
+			},
+			["report"] = {
+				["number"] = 12,
+				["channel"] = "party",
+				["target"] = "Graveblood",
+				["mode"] = "Damage taken",
 			},
 			["columns"] = {
 				["Deaths_Deaths"] = false,
@@ -191,8 +195,8 @@ SkadaDB = {
 				["Death log_Percent"] = false,
 				["Threat_Percent"] = false,
 			},
-			["tooltippos"] = "topleft",
 			["hidedisables"] = false,
+			["tooltippos"] = "topleft",
 			["reset"] = {
 				["leave"] = 2,
 				["instance"] = 2,

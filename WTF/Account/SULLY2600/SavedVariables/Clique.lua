@@ -5,26 +5,27 @@ CliqueDB3 = {
 		["Mooselini - Area 52"] = {
 			["sec_profileKey"] = "Mooselini - Area 52",
 			["fastooc"] = false,
-			["specswap"] = false,
+			["alerthidden"] = true,
 			["downclick"] = false,
 			["pri_profileKey"] = "Mooselini - Area 52",
-			["alerthidden"] = true,
+			["specswap"] = false,
 		},
 	},
 	["profileKeys"] = {
-		["Plebe - Area 52"] = "Plebe - Area 52",
 		["Esoom - Garona"] = "Esoom - Garona",
+		["Plebe - Area 52"] = "Plebe - Area 52",
 		["Mooselini - Area 52"] = "Mooselini - Area 52",
 		["Plebeian - Area 52"] = "Plebeian - Area 52",
+		["Ohgirl - Garona"] = "Ohgirl - Garona",
 	},
 	["profiles"] = {
-		["Plebe - Area 52"] = {
+		["Esoom - Garona"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -37,13 +38,13 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Esoom - Garona"] = {
+		["Plebe - Area 52"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -77,24 +78,6 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [2]
 				{
-					["spell"] = "Purify",
-					["key"] = "Q",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = "Interface\\Icons\\Spell_Holy_DispelMagic",
-					["type"] = "spell",
-				}, -- [3]
-				{
-					["spell"] = "Fear Ward",
-					["key"] = "SHIFT-BUTTON3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = "Interface\\Icons\\Spell_Holy_Excorcism",
-					["type"] = "spell",
-				}, -- [4]
-				{
 					["spell"] = "Penance",
 					["key"] = "BUTTON3",
 					["sets"] = {
@@ -102,7 +85,7 @@ CliqueDB3 = {
 					},
 					["icon"] = "Interface\\Icons\\Spell_Holy_Penance",
 					["type"] = "spell",
-				}, -- [5]
+				}, -- [3]
 				{
 					["spell"] = "Prayer of Mending",
 					["key"] = "SHIFT-BUTTON2",
@@ -110,6 +93,24 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfMendingtga",
+					["type"] = "spell",
+				}, -- [4]
+				{
+					["spell"] = "Purify",
+					["key"] = "Q",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = "Interface\\Icons\\Spell_Holy_DispelMagic",
+					["type"] = "spell",
+				}, -- [5]
+				{
+					["spell"] = "Fear Ward",
+					["key"] = "SHIFT-BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = "Interface\\Icons\\Spell_Holy_Excorcism",
 					["type"] = "spell",
 				}, -- [6]
 				{
@@ -122,12 +123,12 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [7]
 				{
-					["spell"] = "Binding Heal",
-					["key"] = "SHIFT-BUTTON1",
+					["spell"] = "Pain Suppression",
+					["key"] = "F",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = "Interface\\Icons\\Spell_Holy_BlindingHeal",
+					["icon"] = "Interface\\Icons\\Spell_Holy_PainSupression",
 					["type"] = "spell",
 				}, -- [8]
 				{
@@ -140,30 +141,30 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [9]
 				{
-					["spell"] = "Leap of Faith",
-					["key"] = "SHIFT-MOUSEWHEELDOWN",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = "INTERFACE\\ICONS\\priest_spell_leapoffaith_a",
-					["type"] = "spell",
-				}, -- [10]
-				{
-					["spell"] = "Pain Suppression",
-					["key"] = "F",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = "Interface\\Icons\\Spell_Holy_PainSupression",
-					["type"] = "spell",
-				}, -- [11]
-				{
 					["spell"] = "Spirit Shell",
 					["key"] = "BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = "Interface\\Icons\\ability_shaman_astralshift",
+					["type"] = "spell",
+				}, -- [10]
+				{
+					["spell"] = "Binding Heal",
+					["key"] = "SHIFT-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = "Interface\\Icons\\Spell_Holy_BlindingHeal",
+					["type"] = "spell",
+				}, -- [11]
+				{
+					["spell"] = "Leap of Faith",
+					["key"] = "SHIFT-MOUSEWHEELDOWN",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = "INTERFACE\\ICONS\\priest_spell_leapoffaith_a",
 					["type"] = "spell",
 				}, -- [12]
 				{
@@ -204,6 +205,25 @@ CliqueDB3 = {
 					["icon"] = "Interface\\Icons\\Spell_Nature_GiftoftheWaterSpirit",
 					["type"] = "spell",
 				}, -- [3]
+			},
+		},
+		["Ohgirl - Garona"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
 			},
 		},
 	},
